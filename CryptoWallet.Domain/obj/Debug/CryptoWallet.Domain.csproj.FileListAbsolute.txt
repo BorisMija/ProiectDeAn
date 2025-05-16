@@ -1,0 +1,9 @@
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.AssemblyReference.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWa.182704E0.Up2Date
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.pdb

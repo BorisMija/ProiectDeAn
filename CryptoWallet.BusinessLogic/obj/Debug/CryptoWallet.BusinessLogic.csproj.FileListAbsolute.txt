@@ -1,0 +1,2 @@
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\obj\Debug\CryptoWallet.BusinessLogic.csproj.AssemblyReference.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\obj\Debug\CryptoWallet.BusinessLogic.csproj.CoreCompileInputs.cache

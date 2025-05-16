@@ -1,0 +1,6 @@
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\CryptoWallet.Helpers.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\CryptoWallet.Helpers.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWallet.Helpers.csproj.AssemblyReference.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWallet.Helpers.csproj.CoreCompileInputs.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWallet.Helpers.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWallet.Helpers.pdb
