@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CryptoWallet.Domain.Entities.User
 {
-    class ULoginData
+   public class ULoginData
     {
  
             

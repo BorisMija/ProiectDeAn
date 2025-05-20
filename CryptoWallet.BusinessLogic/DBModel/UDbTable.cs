@@ -2,5 +2,6 @@
 {
     public class UDbTable
     {
+        public string Username { get; internal set; }
     }
 }

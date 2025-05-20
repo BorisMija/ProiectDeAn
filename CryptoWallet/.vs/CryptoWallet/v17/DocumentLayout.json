@@ -3,10 +3,124 @@
   "WorkspaceRootPath": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\ba4c8e98-6091-4026-9092-6a8510d435ab_eUseControl (1.3).zip.5ab\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\9c3bf214-0887-4744-9497-e486c1862051_eUseControl (1.3).zip.051\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\dbmodel\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\6c0c6566-1072-4fc5-af94-63a651801901_eUseControl (1.3).zip.901\\eUseControl\\eUseControl.BusinessLogic\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\0fa30b04-aab7-46b1-86b0-d3d82ba58aa8_eUseControl (1.3).zip.aa8\\eUseControl\\eUseControl.BusinessLogic\\App.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\6910e5a9-4aa7-457f-90ae-011c43e4d05e_eUseControl (1.3).zip.05e\\eUseControl\\eUseControl.BusinessLogic\\Properties\\AssemblyInfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\25137e11-a86c-48f5-ad78-824ae50c02db_eUseControl (1.3).zip.2db\\eUseControl\\eUseControl.BusinessLogic\\Interfaces\\ISession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\b05b9b54-905e-4856-8084-17c201b1f941_eUseControl (1.3).zip.941\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\entities\\user\\uloginresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\2f5c988e-b731-43d1-8339-707ffd785f02_eUseControl (1.3).zip.f02\\eUseControl\\eUseControl.BusinessLogic\\Core\\UserApi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\90220880-2912-4d2b-9121-2df9aee4925f_eUseControl (1.3).zip.25f\\eUseControl\\eUseControl.BusinessLogic\\Core\\AdminApi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\cbcdbf4d-466f-49a0-af6f-e90c5f5e6963_eUseControl (1.3).zip.963\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\001d3acf-8ef1-4aab-837b-1afa7583133b_eUseControl (1.3).zip.33b\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\764ba118-56ae-4c50-82e8-6f102a82ac11_eUseControl (1.3).zip.c11\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\c6a6dd8c-fa83-4f15-9f12-15581f355b0f_eUseControl (1.3).zip.b0f\\eUseControl\\eUseControl.BusinessLogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\57e9fdfa-ec01-46ba-9f56-402138eb88ee_eUseControl (1.3).zip.8ee\\eUseControl\\eUseControl.BusinessLogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\8f532d94-c899-4fba-a15c-34eca4dd236e_eUseControl (1.3).zip.36e\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\9f0a3e02-520e-4936-baca-0dcb683232d2_eUseControl (1.3).zip.2d2\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\7ba80706-c2bc-4c88-bdf4-30db347ee0f6_eUseControl (1.3).zip.0f6\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\7f90007c-e14c-490b-bded-24d67151f316_eUseControl (1.3).zip.316\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\boris\\AppData\\Local\\Temp\\5aac6e49-4a06-4a44-bccb-d64fb7bf11ea_eUseControl (1.3).zip.1ea\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00000000-0000-0000-0000-000000000000}|\u003CSolution\u003E|CryptoWallet||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\fonts\\fontawesome-webfont.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:fonts\\fontawesome-webfont.ttf||{25834150-CD7E-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\enums\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\controllers\\sellcryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:controllers\\sellcryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,13 +131,11 @@
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\controllers\\buycryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:controllers\\buycryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
@@ -42,25 +154,6 @@
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|..\\CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.domain\\enums\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|..\\CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|..\\CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet.helpers\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -73,6 +166,9 @@
     {
       "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|solutionrelative:web.debug.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\||{B270807C-D8C6-49EB-8EBE-8E8D566637A1}|5e9a8ac2-4f34-4521-858f-4c248ba31532"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,7 +178,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -94,7 +190,498 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\SessionBL.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\SessionBL.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\SessionBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:58:52.079Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\packages.config",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\packages.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\packages.config",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-19T12:02:54.383Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\ba4c8e98-6091-4026-9092-6a8510d435ab_eUseControl (1.3).zip.5ab\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\ba4c8e98-6091-4026-9092-6a8510d435ab_eUseControl (1.3).zip.5ab\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\ba4c8e98-6091-4026-9092-6a8510d435ab_eUseControl (1.3).zip.5ab\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\ba4c8e98-6091-4026-9092-6a8510d435ab_eUseControl (1.3).zip.5ab\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:37:19.319Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "BussinesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\9c3bf214-0887-4744-9497-e486c1862051_eUseControl (1.3).zip.051\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\9c3bf214-0887-4744-9497-e486c1862051_eUseControl (1.3).zip.051\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\9c3bf214-0887-4744-9497-e486c1862051_eUseControl (1.3).zip.051\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\9c3bf214-0887-4744-9497-e486c1862051_eUseControl (1.3).zip.051\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:36:26.455Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Global.asax.cs",
+              "RelativeDocumentMoniker": "Global.asax.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Global.asax.cs",
+              "RelativeToolTip": "Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:36:17.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:25:48.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "UDbTable.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UDbTable.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\DBModel\\UDbTable.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UDbTable.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\DBModel\\UDbTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-19T12:06:02.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\packages.config",
+              "RelativeDocumentMoniker": "packages.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\packages.config",
+              "RelativeToolTip": "packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T05:36:15.438Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\6c0c6566-1072-4fc5-af94-63a651801901_eUseControl (1.3).zip.901\\eUseControl\\eUseControl.BusinessLogic\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6c0c6566-1072-4fc5-af94-63a651801901_eUseControl (1.3).zip.901\\eUseControl\\eUseControl.BusinessLogic\\App.config",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\6c0c6566-1072-4fc5-af94-63a651801901_eUseControl (1.3).zip.901\\eUseControl\\eUseControl.BusinessLogic\\App.config [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6c0c6566-1072-4fc5-af94-63a651801901_eUseControl (1.3).zip.901\\eUseControl\\eUseControl.BusinessLogic\\App.config [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T05:36:03.852Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "App.config",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\0fa30b04-aab7-46b1-86b0-d3d82ba58aa8_eUseControl (1.3).zip.aa8\\eUseControl\\eUseControl.BusinessLogic\\App.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\0fa30b04-aab7-46b1-86b0-d3d82ba58aa8_eUseControl (1.3).zip.aa8\\eUseControl\\eUseControl.BusinessLogic\\App.config",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\0fa30b04-aab7-46b1-86b0-d3d82ba58aa8_eUseControl (1.3).zip.aa8\\eUseControl\\eUseControl.BusinessLogic\\App.config [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\0fa30b04-aab7-46b1-86b0-d3d82ba58aa8_eUseControl (1.3).zip.aa8\\eUseControl\\eUseControl.BusinessLogic\\App.config [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T05:36:02.252Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.config",
+              "RelativeDocumentMoniker": "Web.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.config",
+              "RelativeToolTip": "Web.config",
+              "ViewState": "AgIAABAAAAAAAAAAAAAAAA0AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-15T10:46:36.431Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\6910e5a9-4aa7-457f-90ae-011c43e4d05e_eUseControl (1.3).zip.05e\\eUseControl\\eUseControl.BusinessLogic\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6910e5a9-4aa7-457f-90ae-011c43e4d05e_eUseControl (1.3).zip.05e\\eUseControl\\eUseControl.BusinessLogic\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\6910e5a9-4aa7-457f-90ae-011c43e4d05e_eUseControl (1.3).zip.05e\\eUseControl\\eUseControl.BusinessLogic\\Properties\\AssemblyInfo.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\6910e5a9-4aa7-457f-90ae-011c43e4d05e_eUseControl (1.3).zip.05e\\eUseControl\\eUseControl.BusinessLogic\\Properties\\AssemblyInfo.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:35:26.134Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ISession.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\25137e11-a86c-48f5-ad78-824ae50c02db_eUseControl (1.3).zip.2db\\eUseControl\\eUseControl.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\25137e11-a86c-48f5-ad78-824ae50c02db_eUseControl (1.3).zip.2db\\eUseControl\\eUseControl.BusinessLogic\\Interfaces\\ISession.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\25137e11-a86c-48f5-ad78-824ae50c02db_eUseControl (1.3).zip.2db\\eUseControl\\eUseControl.BusinessLogic\\Interfaces\\ISession.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\25137e11-a86c-48f5-ad78-824ae50c02db_eUseControl (1.3).zip.2db\\eUseControl\\eUseControl.BusinessLogic\\Interfaces\\ISession.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:34:45.786Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ISession.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:57:57.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\b05b9b54-905e-4856-8084-17c201b1f941_eUseControl (1.3).zip.941\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\b05b9b54-905e-4856-8084-17c201b1f941_eUseControl (1.3).zip.941\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\b05b9b54-905e-4856-8084-17c201b1f941_eUseControl (1.3).zip.941\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\b05b9b54-905e-4856-8084-17c201b1f941_eUseControl (1.3).zip.941\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:34:35.582Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "UserApi.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\2f5c988e-b731-43d1-8339-707ffd785f02_eUseControl (1.3).zip.f02\\eUseControl\\eUseControl.BusinessLogic\\Core\\UserApi.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\2f5c988e-b731-43d1-8339-707ffd785f02_eUseControl (1.3).zip.f02\\eUseControl\\eUseControl.BusinessLogic\\Core\\UserApi.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\2f5c988e-b731-43d1-8339-707ffd785f02_eUseControl (1.3).zip.f02\\eUseControl\\eUseControl.BusinessLogic\\Core\\UserApi.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\2f5c988e-b731-43d1-8339-707ffd785f02_eUseControl (1.3).zip.f02\\eUseControl\\eUseControl.BusinessLogic\\Core\\UserApi.cs [Read Only]",
+              "ViewState": "AgIAAAQAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:32:27.795Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "UserApi.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABcAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:56:15.814Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "ULoginResp.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Entities\\User\\ULoginResp.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginResp.cs",
+              "RelativeToolTip": "..\\CryptoWallet.Domain\\Entities\\User\\ULoginResp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:22:42.4Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UDbTable.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "RelativeToolTip": "..\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T11:27:11.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "AdminApi.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T10:56:02.697Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "AdminApi.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\90220880-2912-4d2b-9121-2df9aee4925f_eUseControl (1.3).zip.25f\\eUseControl\\eUseControl.BusinessLogic\\Core\\AdminApi.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\90220880-2912-4d2b-9121-2df9aee4925f_eUseControl (1.3).zip.25f\\eUseControl\\eUseControl.BusinessLogic\\Core\\AdminApi.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\90220880-2912-4d2b-9121-2df9aee4925f_eUseControl (1.3).zip.25f\\eUseControl\\eUseControl.BusinessLogic\\Core\\AdminApi.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\90220880-2912-4d2b-9121-2df9aee4925f_eUseControl (1.3).zip.25f\\eUseControl\\eUseControl.BusinessLogic\\Core\\AdminApi.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:32:16.284Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\cbcdbf4d-466f-49a0-af6f-e90c5f5e6963_eUseControl (1.3).zip.963\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\cbcdbf4d-466f-49a0-af6f-e90c5f5e6963_eUseControl (1.3).zip.963\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\cbcdbf4d-466f-49a0-af6f-e90c5f5e6963_eUseControl (1.3).zip.963\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\cbcdbf4d-466f-49a0-af6f-e90c5f5e6963_eUseControl (1.3).zip.963\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:32:12.214Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\001d3acf-8ef1-4aab-837b-1afa7583133b_eUseControl (1.3).zip.33b\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\001d3acf-8ef1-4aab-837b-1afa7583133b_eUseControl (1.3).zip.33b\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\001d3acf-8ef1-4aab-837b-1afa7583133b_eUseControl (1.3).zip.33b\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\001d3acf-8ef1-4aab-837b-1afa7583133b_eUseControl (1.3).zip.33b\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:32:10.23Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\764ba118-56ae-4c50-82e8-6f102a82ac11_eUseControl (1.3).zip.c11\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\764ba118-56ae-4c50-82e8-6f102a82ac11_eUseControl (1.3).zip.c11\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\764ba118-56ae-4c50-82e8-6f102a82ac11_eUseControl (1.3).zip.c11\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\764ba118-56ae-4c50-82e8-6f102a82ac11_eUseControl (1.3).zip.c11\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:32:08.954Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\c6a6dd8c-fa83-4f15-9f12-15581f355b0f_eUseControl (1.3).zip.b0f\\eUseControl\\eUseControl.BusinessLogic\\packages.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\c6a6dd8c-fa83-4f15-9f12-15581f355b0f_eUseControl (1.3).zip.b0f\\eUseControl\\eUseControl.BusinessLogic\\packages.config",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\c6a6dd8c-fa83-4f15-9f12-15581f355b0f_eUseControl (1.3).zip.b0f\\eUseControl\\eUseControl.BusinessLogic\\packages.config [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\c6a6dd8c-fa83-4f15-9f12-15581f355b0f_eUseControl (1.3).zip.b0f\\eUseControl\\eUseControl.BusinessLogic\\packages.config [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T05:32:03.187Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\57e9fdfa-ec01-46ba-9f56-402138eb88ee_eUseControl (1.3).zip.8ee\\eUseControl\\eUseControl.BusinessLogic\\packages.config",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\57e9fdfa-ec01-46ba-9f56-402138eb88ee_eUseControl (1.3).zip.8ee\\eUseControl\\eUseControl.BusinessLogic\\packages.config",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\57e9fdfa-ec01-46ba-9f56-402138eb88ee_eUseControl (1.3).zip.8ee\\eUseControl\\eUseControl.BusinessLogic\\packages.config [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\57e9fdfa-ec01-46ba-9f56-402138eb88ee_eUseControl (1.3).zip.8ee\\eUseControl\\eUseControl.BusinessLogic\\packages.config [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-20T05:31:53.716Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "BussinesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\8f532d94-c899-4fba-a15c-34eca4dd236e_eUseControl (1.3).zip.36e\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\8f532d94-c899-4fba-a15c-34eca4dd236e_eUseControl (1.3).zip.36e\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\8f532d94-c899-4fba-a15c-34eca4dd236e_eUseControl (1.3).zip.36e\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\8f532d94-c899-4fba-a15c-34eca4dd236e_eUseControl (1.3).zip.36e\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:30:10.3Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "BussinesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:27:31.811Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\9f0a3e02-520e-4936-baca-0dcb683232d2_eUseControl (1.3).zip.2d2\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\9f0a3e02-520e-4936-baca-0dcb683232d2_eUseControl (1.3).zip.2d2\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\9f0a3e02-520e-4936-baca-0dcb683232d2_eUseControl (1.3).zip.2d2\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\9f0a3e02-520e-4936-baca-0dcb683232d2_eUseControl (1.3).zip.2d2\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:28:46.735Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\7ba80706-c2bc-4c88-bdf4-30db347ee0f6_eUseControl (1.3).zip.0f6\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\7ba80706-c2bc-4c88-bdf4-30db347ee0f6_eUseControl (1.3).zip.0f6\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\7ba80706-c2bc-4c88-bdf4-30db347ee0f6_eUseControl (1.3).zip.0f6\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\7ba80706-c2bc-4c88-bdf4-30db347ee0f6_eUseControl (1.3).zip.0f6\\eUseControl\\eUseControl.BusinessLogic\\DBModel\\UserContext.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:28:11.661Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ULoginData.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "RelativeToolTip": "..\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:24:07.812Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "BussinesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\7f90007c-e14c-490b-bded-24d67151f316_eUseControl (1.3).zip.316\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\7f90007c-e14c-490b-bded-24d67151f316_eUseControl (1.3).zip.316\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\7f90007c-e14c-490b-bded-24d67151f316_eUseControl (1.3).zip.316\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\7f90007c-e14c-490b-bded-24d67151f316_eUseControl (1.3).zip.316\\eUseControl\\eUseControl.BusinessLogic\\BussinesLogic.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:26:40.248Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\AppData\\Local\\Temp\\5aac6e49-4a06-4a44-bccb-d64fb7bf11ea_eUseControl (1.3).zip.1ea\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\5aac6e49-4a06-4a44-bccb-d64fb7bf11ea_eUseControl (1.3).zip.1ea\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\AppData\\Local\\Temp\\5aac6e49-4a06-4a44-bccb-d64fb7bf11ea_eUseControl (1.3).zip.1ea\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\..\\AppData\\Local\\Temp\\5aac6e49-4a06-4a44-bccb-d64fb7bf11ea_eUseControl (1.3).zip.1ea\\eUseControl\\eUseControl.BusinessLogic\\SessionBL.cs [Read Only]",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T05:24:38.458Z",
+              "EditorCaption": " [Read Only]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "CryptoWallet",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\CryptoWallet.csproj",
+              "RelativeDocumentMoniker": "CryptoWallet.csproj",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\CryptoWallet.csproj",
+              "RelativeToolTip": "CryptoWallet.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-05-19T19:00:13.695Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "fontawesome-webfont.ttf",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Fonts\\fontawesome-webfont.ttf",
+              "RelativeDocumentMoniker": "Fonts\\fontawesome-webfont.ttf",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Fonts\\fontawesome-webfont.ttf",
+              "RelativeToolTip": "Fonts\\fontawesome-webfont.ttf",
+              "Icon": "00000000-0000-0000-0000-000000000000.000000|iVBORw0KGgoAAAANSUhEUgAAABQAAAAUCAYAAACNiR0NAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAADsMAAA7DAcdvqGQAAAKSSURBVDhPzZTPbxJBFMffDLCwQAUxEOkP0FJCDzUlUQ7\u002BBxy8eSYSD/43JvY/8O7Vi\u002BEPKL0QEy8NNZHUSrSAsfxmZ3/43uzOFqiJ9eZn8zKzb2a\u002B773ZmWVbW1uBYDAIjDH4F2i\u002B4zh2v993xuOx60QHe43sIVHE9d4Kis5QSLRarfeNRuNDs9k8o4FgqVQ6KJcPy/H4xgY5boksZz6f2\u002Bl0\u002Bl44HE5gxu\u002BOj4/bgXq9/nJ7eycXQ7D0awK0EyG37zXroFAIua/regrN7vV654FarfYim81uapoWlrEVjuN1bqL2m3NOWTIUzmCmDzCn71yOeOCeXhu9q8fz/YlUKgW5XI4Xi8VspVJ5xWmiZVkrYrZt37Bl//JcyhYzZVg6x7KjUnB5MombpgW/RgZMZkK\u002Buz7TD0zzCOoTJIrGSNgXVCZMG4YTEz6fT\u002BGyP/eFyFR261mSKeGVDGmRwOy6lws4\u002BTSEMxSdL0x/TM2jdjkAoVr/o6hBwzDhx4DExvCxTe3EH1PmfTGJElJweqUFxHAi4BtmF8QwMZ3Bl\u002B4MWqcjPxu/tbF11oJ4cDyfMh45p1MTej9nEEex/XwIIADQ7howGBpgWqsC60ZQw/FGSMdCWDDF/VpgyYl4AA4KEdjZjIDAjb4YGPJjUXY3ypdC1Jc94GqzRxPLnhhga7EwJO7okE7pcFiMwf5D3bmcOpZp2\u002B5qZF3Qxe1zQwg5ENehm8\u002BEvj7K66CFGMSjIXi8F4NnTxJXTwvR06gWFHLFX2Bvjo7eFnZ3DyKRiIPlkDb\u002BdZYjwwJtjGfsLp1dedYYdw8zl7dE9vFOzzudzgWrVqvPk8lkBq\u002BO5pbhlrQmKhcqpBj9wbx/Mo0JIcwrxPX8vwD8Bk7yChnmb0LrAAAAAElFTkSuQmCC",
+              "WhenOpened": "2025-05-19T19:00:02.431Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "web.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\web.config",
+              "RelativeDocumentMoniker": "Views\\web.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\web.config",
+              "RelativeToolTip": "Views\\web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-19T11:50:54.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "URole.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\URole.cs",
+              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Enums\\URole.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\URole.cs",
+              "RelativeToolTip": "..\\CryptoWallet.Domain\\Enums\\URole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T13:34:58.008Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "SellCryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SellCryptoController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "RelativeToolTip": "Controllers\\SellCryptoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T17:33:13.03Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "LoginController.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\LoginController.cs",
               "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
@@ -107,31 +694,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 39,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-16T11:22:02.272Z"
+              "WhenOpened": "2025-05-16T11:22:02.272Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "UDbTable.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "RelativeToolTip": "..\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 40,
+              "Title": "BuyCryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\BuyCryptoController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "RelativeToolTip": "Controllers\\BuyCryptoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:27:11.02Z"
+              "WhenOpened": "2025-05-16T17:25:16.963Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 41,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Class1.cs",
@@ -139,49 +728,12 @@
               "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:49:30.63Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "AdminApi.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:56:02.697Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserApi.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:56:15.814Z",
+              "WhenOpened": "2025-05-15T10:49:30.63Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:25:48.653Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 42,
               "Title": "_Layout.cshtml",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
@@ -189,7 +741,8 @@
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-15T20:42:03.742Z"
+              "WhenOpened": "2025-05-15T20:42:03.742Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
@@ -197,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 43,
               "Title": "RouteConfig.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\RouteConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\RouteConfig.cs",
@@ -205,11 +758,12 @@
               "RelativeToolTip": "App_Start\\RouteConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T20:38:06.584Z"
+              "WhenOpened": "2025-05-15T20:38:06.584Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 45,
               "Title": "BundleConfig.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\BundleConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\BundleConfig.cs",
@@ -217,36 +771,12 @@
               "RelativeToolTip": "App_Start\\BundleConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T20:37:48.949Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.config",
-              "RelativeDocumentMoniker": "Web.config",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.config",
-              "RelativeToolTip": "Web.config",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAA0AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-15T10:46:36.431Z",
+              "WhenOpened": "2025-05-15T20:37:48.949Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "ULoginData.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "RelativeToolTip": "..\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T11:06:12.221Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 44,
               "Title": "FilterConfig.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\FilterConfig.cs",
               "RelativeDocumentMoniker": "App_Start\\FilterConfig.cs",
@@ -254,59 +784,12 @@
               "RelativeToolTip": "App_Start\\FilterConfig.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:46:33.125Z"
+              "WhenOpened": "2025-05-15T10:46:33.125Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "ISession.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:57:57.686Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "SessionBL.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\SessionBL.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\SessionBL.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\SessionBL.cs",
-              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\SessionBL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:58:52.079Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "URole.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\URole.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Enums\\URole.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\URole.cs",
-              "RelativeToolTip": "..\\CryptoWallet.Domain\\Enums\\URole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T13:34:58.008Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "BussinesLogic.cs",
-              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "RelativeDocumentMoniker": "..\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "RelativeToolTip": "..\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA4AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:58:26.543Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 46,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CryptoWallet.Helpers\\Class1.cs",
@@ -314,11 +797,12 @@
               "RelativeToolTip": "..\\CryptoWallet.Helpers\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:51:14.949Z"
+              "WhenOpened": "2025-05-15T10:51:14.949Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 47,
               "Title": "Class1.cs",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Class1.cs",
               "RelativeDocumentMoniker": "..\\CryptoWallet.Domain\\Class1.cs",
@@ -326,11 +810,12 @@
               "RelativeToolTip": "..\\CryptoWallet.Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-15T10:50:42.408Z"
+              "WhenOpened": "2025-05-15T10:50:42.408Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 48,
               "Title": "Web.Release.config",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.Release.config",
               "RelativeDocumentMoniker": "Web.Release.config",
@@ -338,11 +823,12 @@
               "RelativeToolTip": "Web.Release.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-15T10:46:36.76Z"
+              "WhenOpened": "2025-05-15T10:46:36.76Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 49,
               "Title": "Web.Debug.config",
               "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.Debug.config",
               "RelativeDocumentMoniker": "Web.Debug.config",
@@ -350,7 +836,8 @@
               "RelativeToolTip": "Web.Debug.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-05-15T10:46:36.622Z"
+              "WhenOpened": "2025-05-15T10:46:36.622Z",
+              "EditorCaption": ""
             }
           ]
         }
