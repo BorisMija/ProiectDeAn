@@ -1,15 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿
 namespace CryptoWallet.Domain.Enums
 {
-    public enum UserRole
+    public enum URole
     {
-        Customer,
-        Admin,
-        Support
+        User = 100,
+        Moderator = 200,
+        Admin = 300,
+        SuperAdmin = 400
     }
 }

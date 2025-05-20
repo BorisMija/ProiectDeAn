@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWallet.Domain", "..\C
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWallet.Helpers", "..\CryptoWallet.Helpers\CryptoWallet.Helpers.csproj", "{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoWallet.BusinessLogic", "..\CryptoWallet.BusinessLogic\CryptoWallet.BusinessLogic.csproj", "{87A19B96-688D-439C-B509-4B43EE05CBE0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{87A19B96-688D-439C-B509-4B43EE05CBE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87A19B96-688D-439C-B509-4B43EE05CBE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87A19B96-688D-439C-B509-4B43EE05CBE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87A19B96-688D-439C-B509-4B43EE05CBE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

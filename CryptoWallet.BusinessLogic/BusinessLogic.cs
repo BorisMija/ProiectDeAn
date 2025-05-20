@@ -1,11 +1,12 @@
 using CryptoWallet.BusinessLogic.Core;
 using CryptoWallet.BusinessLogic.Interfaces;
+using eUseControl.BusinessLogic.Core;
 using System;
 
 
 namespace CryptoWallet.BusinessLogic
 {
-    public class BussinesLogic
+    public class BusinessLogic
     {
         private static SessionBL _sessionBL;
 

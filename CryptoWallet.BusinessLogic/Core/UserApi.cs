@@ -2,6 +2,7 @@
 ﻿using System.Linq;
 using CryptoWallet.BusinessLogic.DBModel;
 using CryptoWallet.Domain.Entities.User;
+using eUseControl.BusinessLogic.DBModel;
 
 
 

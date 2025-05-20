@@ -7,3 +7,7 @@ C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\Crypt
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWa.182704E0.Up2Date
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.pdb
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.AssemblyReference.cache
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.dll
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.pdb
