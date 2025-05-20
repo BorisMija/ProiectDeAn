@@ -1,12 +1,37 @@
-﻿
-namespace CryptoWallet.BusinessLogic.Core
+
+﻿using System.Linq;
+using CryptoWallet.BusinessLogic.DBModel;
+using CryptoWallet.Domain.Entities.User;
+
+
+
+
+namespace eUseControl.BusinessLogic.Core
 {
-    public interface IUserApi
+    public class UserApi
     {
-         void Register(string username, string password, string email);
-         bool Login(string username, string password);
-        void UpdateProfile(string userId, string newEmail);
-        void ChangePassword(string userId, string oldPassword, string newPassword);
+        internal ULoginResp UserLoginAction(ULoginData data)
+        {
+            UDbTable user;
+
+            using (var db = new UserContext())
+            {
+                user = db.Users.FirstOrDefault(u => u.Username == data.Credential);
+            }
+
+            using (var db = new UserContext())
+            {
+                user = (from u in db.Users where u.Username == data.Credential select u).FirstOrDefault();
+            }
+
+
+            if (user != null)
+            {
+
+            }
+
+            return new ULoginResp();
+        }
 
     }
 }
