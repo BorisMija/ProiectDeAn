@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace CryptoWallet.Domain.Enums
 {
-    enum URole
+    public enum UserRole
     {
+        Customer,
+        Admin,
+        Support
     }
 }

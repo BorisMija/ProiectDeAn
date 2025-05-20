@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace CryptoWallet.BusinessLogic.Interfaces
 {
-    interface ISession
+    public interface ISession
     {
+
+        bool IsAuthenticated { get; }
+        string UserId { get; }
+        void Login(string userId);
+        void Logout();
     }
 }

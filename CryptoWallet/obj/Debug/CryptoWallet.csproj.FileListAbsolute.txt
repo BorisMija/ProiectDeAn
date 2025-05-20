@@ -61,3 +61,5 @@ C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\Newtonsoft.Json.xml
 C:\Users\Yamato\source\repos\TWeb\CryptoWallet\bin\System.Web.Optimization.xml
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\obj\Debug\CryptoWallet.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\obj\Debug\CryptoWallet.pdb
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWallet.dll
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWallet.pdb
