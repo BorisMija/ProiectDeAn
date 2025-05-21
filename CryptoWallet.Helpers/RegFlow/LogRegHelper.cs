@@ -14,7 +14,7 @@ namespace CryptoWallet.Helpers.RegFlow
 
         public static string GenerateSecureToken(int userId)
         {
-            string _secretKey = "your_secret_key";
+            string _secretKey = "pseudo_secret_key";
             string tokenData = $"{userId}:{DateTime.UtcNow.Ticks}";
             byte[] keyBytes = Encoding.UTF8.GetBytes(_secretKey);
             byte[] dataBytes = Encoding.UTF8.GetBytes(tokenData);

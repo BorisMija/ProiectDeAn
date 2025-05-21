@@ -1,12 +1,13 @@
 ﻿using System.Data.Entity;
 using CryptoWallet.BusinessLogic.DBModel;
+using CryptoWallet.Domain.Entities.User;
 
 namespace eUseControl.BusinessLogic.DBModel
 {
     class UserContext : DbContext
     {
         public UserContext() :
-            base("name=eUseControl") // connectionstring name define in your web.config
+            base("name=CryptoWallet") // connectionstring name define in your web.config
         {
         }
 

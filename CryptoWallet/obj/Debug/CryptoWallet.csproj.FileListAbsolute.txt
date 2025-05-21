@@ -1,0 +1,2 @@
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWallet.csproj.AssemblyReference.cache
+C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWallet.csproj.CoreCompileInputs.cache

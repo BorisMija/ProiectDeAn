@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Web;
 using System.Data.Entity;
 using System.Linq;
 using CryptoWallet.BusinessLogic.DBModel;
@@ -21,7 +22,7 @@ namespace eUseControl.BusinessLogic.Core
         {
             using (var db = new UserContext())
             {
-                if (db.Users.Any(u => u.Name == model.Name || u.Email == model.Email))
+                if (db.Users.Any(u => u.Username == model.Name || u.Email == model.Email))
                     return null;
 
                 var user = new UDbTable
@@ -31,7 +32,7 @@ namespace eUseControl.BusinessLogic.Core
                     Password = LogRegHelper.HashPassword(model.Password),
                     LastLogin = model.RegisterDataTime,
                     LastIp = HttpContext.Current?.Request.UserHostAddress,
-                    Level = URole.User
+                    Role = URole.User
                 };
 
                 db.Users.Add(user);
@@ -78,7 +79,7 @@ namespace eUseControl.BusinessLogic.Core
 
 
                 user.LastLogin = model.LoginDataTime;
-                user.UserIp = HttpContext.Current?.Request.UserHostAddress;
+                user.LastIp = HttpContext.Current?.Request.UserHostAddress;
 
                 using (var db = new UserContext())
                 {

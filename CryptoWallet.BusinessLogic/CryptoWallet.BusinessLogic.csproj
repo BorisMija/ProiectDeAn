@@ -79,6 +79,7 @@
     <Reference Include="System" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Security" />
     <Reference Include="System.Web.Optimization, Version=1.1.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\CryptoWallet\packages\Microsoft.AspNet.Web.Optimization.1.1.3\lib\net40\System.Web.Optimization.dll</HintPath>
@@ -94,16 +95,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BLStruct\RegisterBL.cs" />
+    <Compile Include="BLStruct\SessionBL.cs" />
     <Compile Include="BussinesLogic.cs" />
-    <Compile Include="BussinesLogicBase.cs" />
-    <Compile Include="Class1.cs" />
     <Compile Include="Core\AdminApi.cs" />
     <Compile Include="Core\UserApi.cs" />
-    <Compile Include="DBModel\UDbTable.cs" />
+    <Compile Include="DBModel\SessionContext.cs" />
     <Compile Include="DBModel\UserContext.cs" />
     <Compile Include="Interfaces\ISession.cs" />
+    <Compile Include="Interfaces\IRegister.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SessionBL.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CryptoWallet.Domain\CryptoWallet.Domain.csproj">
@@ -115,51 +116,8 @@
       <Name>CryptoWallet.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
-    <Folder Include="DBModel\Seed\" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="Content\themes\base\accordion.css" />
-    <Content Include="Content\themes\base\all.css" />
-    <Content Include="Content\themes\base\autocomplete.css" />
-    <Content Include="Content\themes\base\base.css" />
-    <Content Include="Content\themes\base\button.css" />
-    <Content Include="Content\themes\base\core.css" />
-    <Content Include="Content\themes\base\datepicker.css" />
-    <Content Include="Content\themes\base\dialog.css" />
-    <Content Include="Content\themes\base\draggable.css" />
-    <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_flat_75_ffffff_40x100.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_55_fbf9ee_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_65_ffffff_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_dadada_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_75_e6e6e6_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_glass_95_fef1ec_1x400.png" />
-    <Content Include="Content\themes\base\images\ui-bg_highlight-soft_75_cccccc_1x100.png" />
-    <Content Include="Content\themes\base\images\ui-icons_222222_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_2e83ff_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_444444_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_454545_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_555555_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_777620_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_777777_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_888888_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_cc0000_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_cd0a0a_256x240.png" />
-    <Content Include="Content\themes\base\images\ui-icons_ffffff_256x240.png" />
-    <Content Include="Content\themes\base\jquery-ui.css" />
-    <Content Include="Content\themes\base\jquery-ui.min.css" />
-    <Content Include="Content\themes\base\menu.css" />
-    <Content Include="Content\themes\base\progressbar.css" />
-    <Content Include="Content\themes\base\resizable.css" />
-    <Content Include="Content\themes\base\selectable.css" />
-    <Content Include="Content\themes\base\selectmenu.css" />
-    <Content Include="Content\themes\base\slider.css" />
-    <Content Include="Content\themes\base\sortable.css" />
-    <Content Include="Content\themes\base\spinner.css" />
-    <Content Include="Content\themes\base\tabs.css" />
-    <Content Include="Content\themes\base\theme.css" />
-    <Content Include="Content\themes\base\tooltip.css" />
     <Content Include="Scripts\jquery-2.0.0.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.7.1.js" />
@@ -173,22 +131,6 @@
     <Content Include="Scripts\jquery.validate.js" />
     <Content Include="Scripts\jquery.validate.min.js" />
     <None Include="App.config" />
-    <None Include="Content\bootstrap-grid.css.map" />
-    <None Include="Content\bootstrap-grid.min.css.map" />
-    <None Include="Content\bootstrap-grid.rtl.css.map" />
-    <None Include="Content\bootstrap-grid.rtl.min.css.map" />
-    <None Include="Content\bootstrap-reboot.css.map" />
-    <None Include="Content\bootstrap-reboot.min.css.map" />
-    <None Include="Content\bootstrap-reboot.rtl.css.map" />
-    <None Include="Content\bootstrap-reboot.rtl.min.css.map" />
-    <None Include="Content\bootstrap-utilities.css.map" />
-    <None Include="Content\bootstrap-utilities.min.css.map" />
-    <None Include="Content\bootstrap-utilities.rtl.css.map" />
-    <None Include="Content\bootstrap-utilities.rtl.min.css.map" />
-    <None Include="Content\bootstrap.css.map" />
-    <None Include="Content\bootstrap.min.css.map" />
-    <None Include="Content\bootstrap.rtl.css.map" />
-    <None Include="Content\bootstrap.rtl.min.css.map" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.woff" />
@@ -205,24 +147,6 @@
     <None Include="Scripts\jquery-3.7.1.slim.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\bootstrap-grid.css" />
-    <Content Include="Content\bootstrap-grid.min.css" />
-    <Content Include="Content\bootstrap-grid.rtl.css" />
-    <Content Include="Content\bootstrap-grid.rtl.min.css" />
-    <Content Include="Content\bootstrap-reboot.css" />
-    <Content Include="Content\bootstrap-reboot.min.css" />
-    <Content Include="Content\bootstrap-reboot.rtl.css" />
-    <Content Include="Content\bootstrap-reboot.rtl.min.css" />
-    <Content Include="Content\bootstrap-utilities.css" />
-    <Content Include="Content\bootstrap-utilities.min.css" />
-    <Content Include="Content\bootstrap-utilities.rtl.css" />
-    <Content Include="Content\bootstrap-utilities.rtl.min.css" />
-    <Content Include="Content\bootstrap.css" />
-    <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\bootstrap.rtl.css" />
-    <Content Include="Content\bootstrap.rtl.min.css" />
-    <Content Include="Content\font-awesome.css" />
-    <Content Include="Content\font-awesome.min.css" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
