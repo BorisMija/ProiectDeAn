@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.IO;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
+
 
 namespace CryptoWallet.Helpers.Session
 {
@@ -76,12 +74,7 @@ namespace CryptoWallet.Helpers.Session
                 return outStr;
             }
 
-            /// <summary>
-            /// Decrypt the given string.  Assumes the string was encrypted using 
-            /// EncryptStringAES(), using an identical sharedSecret.
-            /// </summary>
-            /// <param name="cipherText">The text to decrypt.</param>
-            /// <param name="sharedSecret">A password used to generate a key for decryption.</param>
+            
             private static string DecryptStringAes(string cipherText, string sharedSecret)
             {
                 if (string.IsNullOrEmpty(cipherText))

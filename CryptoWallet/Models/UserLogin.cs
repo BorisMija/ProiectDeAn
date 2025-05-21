@@ -1,9 +1,15 @@
-﻿namespace CryptoWallet.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace CryptoWallet.Models
 {
-	public class UserLogin
-	{
-		public string Credential { get; set; }
-		
-		public string Password { get; set; }
-	}
+    public class UserDataLogin
+    {
+        [Required]
+        [Display(Name = "Username or Email")]
+        public string NameOrEmail { get; set; }
+
+        [Required]
+        [DataType(DataType.Password)]
+        public string Password { get; set; }
+    }
 }

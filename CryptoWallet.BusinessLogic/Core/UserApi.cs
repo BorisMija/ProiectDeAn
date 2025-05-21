@@ -18,6 +18,14 @@ namespace eUseControl.BusinessLogic.Core
 {
     public class UserApi
     {
+        private readonly IHttpContextAccessor _httpContextAccessor;
+
+        // Constructor to inject IHttpContextAccessor
+        public UserApi(IHttpContextAccessor httpContextAccessor)
+        {
+            _httpContextAccessor = httpContextAccessor;
+        }
+
         public string RegisterUser(UDataRegister model)
         {
             using (var db = new UserContext())
@@ -27,18 +35,17 @@ namespace eUseControl.BusinessLogic.Core
 
                 var user = new UDbTable
                 {
-
                     Email = model.Email,
                     Password = LogRegHelper.HashPassword(model.Password),
                     LastLogin = model.RegisterDataTime,
-                    LastIp = HttpContext.Current?.Request.UserHostAddress,
+                    LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString(),
                     Role = URole.User
                 };
 
                 db.Users.Add(user);
                 db.SaveChanges();
 
-                // Generam un token pentru utilizator
+                // Generate a token for the user
                 string token = LogRegHelper.GenerateSecureToken(user.Id);
 
                 return token;
@@ -54,7 +61,7 @@ namespace eUseControl.BusinessLogic.Core
 
                 using (var dbContext = new UserContext())
                 {
-                    // Existenta utilizatorului in baza de date
+                    // Check if the user exists in the database
                     user = dbContext.Users.FirstOrDefault(u => u.Email == model.NameOrEmail);
 
                     if (user == null)
@@ -66,7 +73,7 @@ namespace eUseControl.BusinessLogic.Core
                         };
                     }
 
-                    // Parola incorecta
+                    // Incorrect password
                     if (user.Password != hashedPassword)
                     {
                         return new UserResp
@@ -77,9 +84,10 @@ namespace eUseControl.BusinessLogic.Core
                     }
                 }
 
-
                 user.LastLogin = model.LoginDataTime;
-                user.LastIp = HttpContext.Current?.Request.UserHostAddress;
+
+                // Fix for CS0120: Use the injected IHttpContextAccessor instance
+                user.LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
 
                 using (var db = new UserContext())
                 {
@@ -87,7 +95,7 @@ namespace eUseControl.BusinessLogic.Core
                     db.SaveChanges();
                 }
 
-                // Generam un Response pentru utilizator
+                // Generate a response for the user
                 return new UserResp
                 {
                     Status = true,
@@ -104,98 +112,6 @@ namespace eUseControl.BusinessLogic.Core
                     Result = LogInResult.UnknownError,
                 };
             }
-        }
-
-        public userCookieResponse GenerateCookieByUserAction(int userId)
-        {
-            var cookieString = new HttpCookie("X-KEY")
-            {
-                Value = CookieGenerator.Create(userId + HttpContext.Current?.Request.UserHostAddress)
-            };
-
-
-            SessionDbTable sessionDb;
-
-            using (var db = new SessionContext())
-            {
-                sessionDb = db.Sessions.FirstOrDefault(u => u.UserId == userId);
-            }
-
-            var dateTime = DateTime.Now;
-
-            //if session exist
-            if (sessionDb != null)
-            {
-                sessionDb.Cookie = cookieString.Value;
-                sessionDb.ValidTime = dateTime.AddHours(3);
-
-                using (var db = new SessionContext())
-                {
-                    db.Entry(sessionDb).State = EntityState.Modified;
-                    db.SaveChanges();
-                }
-            }
-
-            //if session not exist
-            else
-            {
-                // Insert table
-                sessionDb = new SessionDbTable()
-                {
-                    UserId = userId,
-                    Cookie = cookieString.Value,
-                    ValidTime = dateTime.AddHours(3)
-                };
-
-                using (var db = new SessionContext())
-                {
-                    db.Sessions.Add(sessionDb);
-                    db.SaveChanges();
-                }
-            }
-
-            return new UserCookieResp()
-            {
-                UserId = userId,
-                cookie = cookieString,
-                ExpirationDate = dateTime
-            };
-        }
-
-        public UserResp GetUserByCookieAction(string cookieKey)
-        {
-            SessionDbTable session;
-            UDbTable user;
-
-            using (var db = new SessionContext())
-            {
-                session = db.Sessions.FirstOrDefault(s => s.Cookie.Contains(cookieKey));
-            }
-
-            if (session != null)
-            {
-                using (var db = new UserContext())
-                {
-                    user = db.Users.FirstOrDefault(u => u.Id == session.UserId);
-                }
-
-                if (user != null)
-                {
-                    return new UserResp()
-                    {
-                        UserId = user.Id,
-                        Status = true,
-                        Role = user.Level,
-                        Name = user.Name
-                    };
-                }
-            }
-
-            //if user does not exist
-            return new UserResp()
-            {
-                Status = false,
-            };
         }
     }
 }
