@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}</ProjectGuid>
+    <ProjectGuid>1eff2d28-ea1e-4d0d-82c9-6051b3ef4e6b</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>CryptoWallet.Helpers</RootNamespace>
@@ -31,17 +31,24 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Net.Http" />
-    <Reference Include="System.Xml" />
+    <Reference Include="System"/>
+    
+    <Reference Include="System.Core"/>
+    <Reference Include="System.Xml.Linq"/>
+    <Reference Include="System.Data.DataSetExtensions"/>
+    
+    
+    <Reference Include="Microsoft.CSharp"/>
+    
+    <Reference Include="System.Data"/>
+    
+    <Reference Include="System.Net.Http"/>
+    
+    <Reference Include="System.Xml"/>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-</Project>
+ </Project>

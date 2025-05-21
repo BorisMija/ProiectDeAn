@@ -1,11 +1,7 @@
-
 ﻿using System.Linq;
 using CryptoWallet.BusinessLogic.DBModel;
 using CryptoWallet.Domain.Entities.User;
 using eUseControl.BusinessLogic.DBModel;
-
-
-
 
 namespace eUseControl.BusinessLogic.Core
 {
@@ -33,6 +29,5 @@ namespace eUseControl.BusinessLogic.Core
 
             return new ULoginResp();
         }
-
     }
 }

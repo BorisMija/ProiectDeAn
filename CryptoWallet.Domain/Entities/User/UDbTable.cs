@@ -1,13 +1,11 @@
 ﻿using System;
-
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using CryptoWallet.Domain.Enums;
 
-
 namespace CryptoWallet.Domain.Entities.User
 {
-   public class UDbTable
+    class UDbTable
     {
         [Key]
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]

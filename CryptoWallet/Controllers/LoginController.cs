@@ -1,7 +1,9 @@
 ﻿using System;
-using System.Web;
 using System.Web.Mvc;
 using CryptoWallet.BusinessLogic;
+using CryptoWallet.BusinessLogic.Interfaces;
+using CryptoWallet.Domain.Entities.User;
+using CryptoWallet.Models;
 
 namespace CryptoWallet.Controllers
 {
@@ -11,7 +13,7 @@ namespace CryptoWallet.Controllers
 
         public LoginController()
         {
-            var bl = new BusinessLogic();
+            var bl = new BussinesLogic();
             _session = bl.GetSessionBL();
         }
 

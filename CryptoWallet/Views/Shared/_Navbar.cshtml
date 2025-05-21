@@ -1,4 +1,4 @@
-<div class="container-fluid">
+﻿<div class="container-fluid">
     <div class="main-logo">
         <a href="@Url.Action("Index", "Home")">
             <!-- Corrected logo path -->
@@ -17,23 +17,23 @@
                     aria-label="Close"></button>
         </div>
         <div class="offcanvas-body justify-content-lg-between">
-            <div class="main-menu text-center d-lg-flex align-items-center ">
+            <div class="main-menu d-lg-flex align-items-center text-center">
                 <ul class="menu-list list-unstyled d-lg-flex content-light m-0">
                     <li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("Index", "Home")">Home</a>
                     </li>
-                    <li class="menu-item text-uppercase">
+                    @*<li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
-                    </li>
+                    </li>*@
                     <li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("Index", "BuyCrypto")">Buy Crypto</a>
                     </li>
-                    <li class="menu-item text-uppercase">
+                    @*<li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
                     </li>
                     <li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("Contact", "Home")">Contact</a>
-                    </li>
+                    </li>*@
                 </ul>
             </div>
             <div class="btn-wrap d-md-flex">
@@ -52,7 +52,7 @@
                                 <div class="tabs-listing mt-4">
                                     <nav>
                                         <div class="nav nav-tabs d-flex justify-content-center border-0" id="nav-tab" role="tablist">
-                                            <button class="btn btn-outline-primary text-uppercase me-3 active" id="nav-sign-in-tab"
+                                            <button class="btn btn-outline-primary text-uppercase active me-3" id="nav-sign-in-tab"
                                                     data-bs-toggle="tab" data-bs-target="#nav-sign-in" type="button" role="tab"
                                                     aria-controls="nav-sign-in" aria-selected="true">
                                                 Log In
@@ -67,10 +67,10 @@
                                     <div class="tab-content" id="nav-tabContent">
                                         <div class="tab-pane fade active show" id="nav-sign-in" role="tabpanel"
                                              aria-labelledby="nav-sign-in-tab">
-                                            <form id="form1" class="form-group flex-wrap p-3 ">
+                                            <form id="form1" class="form-group flex-wrap p-3">
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="exampleInputEmail1"
-                                                           class="form-label fs-6 text-uppercase fw-bold text-black ">
+                                                           class="form-label fs-6 text-uppercase fw-bold text-black">
                                                         Email Address
                                                     </label>
                                                     <input type="text" id="exampleInputEmail1" name="email" placeholder="Email"
@@ -78,11 +78,11 @@
                                                 </div>
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="inputPassword1"
-                                                           class="form-label  fs-6 text-uppercase fw-bold text-black ">Password</label>
+                                                           class="form-label fs-6 text-uppercase fw-bold text-black">Password</label>
                                                     <input type="password" id="inputPassword1" placeholder="Password"
                                                            class="form-control bg-secondary bg-opacity-10 ps-3" aria-describedby="passwordHelpBlock">
                                                     <div id="passwordHelpBlock" class="form-text text-center">
-                                                        <a href="#" class=" password">Forgot Password ?</a>
+                                                        <a href="#" class="password">Forgot Password ?</a>
                                                     </div>
                                                 </div>
                                                 <label class="py-3">
@@ -98,7 +98,7 @@
                                         </div>
                                         <div class="tab-pane fade" id="nav-register" role="tabpanel"
                                              aria-labelledby="nav-register-tab">
-                                            <form id="form2" class="form-group flex-wrap p-3 ">
+                                            <form id="form2" class="form-group flex-wrap p-3">
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="exampleInputEmail2"
                                                            class="form-label fs-6 text-uppercase fw-bold text-black">
@@ -109,7 +109,7 @@
                                                 </div>
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="inputPassword2"
-                                                           class="form-label  fs-6 text-uppercase fw-bold text-black">Password</label>
+                                                           class="form-label fs-6 text-uppercase fw-bold text-black">Password</label>
                                                     <input type="password" id="inputPassword2" placeholder="Password"
                                                            class="form-control bg-secondary bg-opacity-10 ps-3" aria-describedby="passwordHelpBlock">
                                                 </div>
@@ -117,7 +117,7 @@
                                                     <input type="checkbox" required="" class="d-inline">
                                                     <span class="label-body text-black">
                                                         I agree to the <a href="#"
-                                                                          class="text-black password border-bottom">Privacy Policy</a>
+                                                                          class="password border-bottom text-black">Privacy Policy</a>
                                                     </span>
                                                 </label>
                                                 <div class="d-grid my-3">
@@ -133,7 +133,7 @@
                         </div>
                     </div>
                 </div>
-                <a href="#" class="btn btn-linear btn-medium align-self-center btn-rounded text-uppercase register-btn mt-3 mt-md-0" data-bs-toggle="modal"
+                <a href="#" class="btn btn-linear btn-medium align-self-center btn-rounded text-uppercase register-btn mt-md-0 mt-3" data-bs-toggle="modal"
                    data-bs-target="#exampleModal2">Register</a>
                 <!-- Second Modal -->
                 <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
@@ -147,7 +147,7 @@
                                 <div class="tabs-listing mt-4">
                                     <nav>
                                         <div class="nav nav-tabs d-flex justify-content-center border-0" id="nav-tab2" role="tablist">
-                                            <button class="btn btn-outline-primary text-uppercase me-4 " id="nav-sign-in-tab2"
+                                            <button class="btn btn-outline-primary text-uppercase me-4" id="nav-sign-in-tab2"
                                                     data-bs-toggle="tab" data-bs-target="#nav-sign-in2" type="button" role="tab"
                                                     aria-controls="nav-sign-in2" aria-selected="false">
                                                 Log In
@@ -160,9 +160,9 @@
                                         </div>
                                     </nav>
                                     <div class="tab-content" id="nav-tabContent1">
-                                        <div class="tab-pane fade " id="nav-sign-in2" role="tabpanel"
+                                        <div class="tab-pane fade" id="nav-sign-in2" role="tabpanel"
                                              aria-labelledby="nav-sign-in-tab2">
-                                            <form id="form3" class="form-group flex-wrap p-3 ">
+                                            <form id="form3" class="form-group flex-wrap p-3">
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="exampleInputEmail3"
                                                            class="form-label fs-6 text-uppercase fw-bold text-black">
@@ -173,11 +173,11 @@
                                                 </div>
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="inputPassword3"
-                                                           class="form-label  fs-6 text-uppercase fw-bold text-black">Password</label>
+                                                           class="form-label fs-6 text-uppercase fw-bold text-black">Password</label>
                                                     <input type="password" id="inputPassword3" placeholder="Password"
                                                            class="form-control bg-secondary bg-opacity-10 ps-3" aria-describedby="passwordHelpBlock">
                                                     <div id="passwordHelpBlock2" class="form-text text-center">
-                                                        <a href="#" class=" password">Forgot Password ?</a>
+                                                        <a href="#" class="password">Forgot Password ?</a>
                                                     </div>
                                                 </div>
                                                 <label class="py-3">
@@ -193,7 +193,7 @@
                                         </div>
                                         <div class="tab-pane fade active show" id="nav-register2" role="tabpanel"
                                              aria-labelledby="nav-register-tab2">
-                                            <form id="form4" class="form-group flex-wrap p-3 ">
+                                            <form id="form4" class="form-group flex-wrap p-3">
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="exampleInputEmail4"
                                                            class="form-label fs-6 text-uppercase fw-bold text-black">
@@ -204,7 +204,7 @@
                                                 </div>
                                                 <div class="form-input col-lg-12 my-4">
                                                     <label for="inputPassword4"
-                                                           class="form-label  fs-6 text-uppercase fw-bold text-black">Password</label>
+                                                           class="form-label fs-6 text-uppercase fw-bold text-black">Password</label>
                                                     <input type="password" id="inputPassword4" placeholder="Password"
                                                            class="form-control bg-secondary bg-opacity-10 ps-3" aria-describedby="passwordHelpBlock">
                                                 </div>
@@ -212,7 +212,7 @@
                                                     <input type="checkbox" required="" class="d-inline">
                                                     <span class="label-body text-black">
                                                         I agree to the <a href="#"
-                                                                          class="text-black password border-bottom">Privacy Policy</a>
+                                                                          class="password border-bottom text-black">Privacy Policy</a>
                                                     </span>
                                                 </label>
                                                 <div class="d-grid my-3">
