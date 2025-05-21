@@ -1,6 +1,7 @@
 ﻿using CryptoWallet.BusinessLogic.Interfaces;
 using CryptoWallet.Domain.Entities.User;
 using eUseControl.BusinessLogic.Core;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,10 +13,12 @@ namespace CryptoWallet.BusinessLogic.BLStruct
 
         public class RegisterBL : UserApi, IRegister
         {
-            public string SignUpLogic(UDataRegister data)
+    
+
+        public string SignUpLogic(UDataRegister data)
             {
                 return RegisterUser(data);
             }
         }
-    }
-}
+ }
+

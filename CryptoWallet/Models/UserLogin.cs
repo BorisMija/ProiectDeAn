@@ -2,7 +2,7 @@
 
 namespace CryptoWallet.Models
 {
-    public class UserDataLogin
+    public class UserLogin
     {
         [Required]
         [Display(Name = "Username or Email")]

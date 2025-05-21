@@ -11,5 +11,6 @@ namespace CryptoWallet.Domain.Entities.User
         public string Password { get; set; }
         public string ConfirmPassword { get; set; }
         public DateTime RegisterDataTime { get; set; }
+        public Exception StatusMsg { get; set; }
     }
 }

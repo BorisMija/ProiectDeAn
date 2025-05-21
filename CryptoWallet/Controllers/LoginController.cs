@@ -13,11 +13,11 @@ namespace CryptoWallet.Controllers
 
         public LoginController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BusinessLogic.BusinessLogic(); // Fixed: Fully qualified the 'BusinessLogic' class to avoid namespace conflict  
             _session = bl.GetSessionBL();
         }
 
-        // GET: Login
+        // GET: Login  
         public ActionResult Index()
         {
             return View();
@@ -31,12 +31,13 @@ namespace CryptoWallet.Controllers
             {
                 ULoginData data = new ULoginData
                 {
-                    Credential = login.Credential,
+                    NameOrEmail = login.NameOrEmail,
                     Password = login.Password,
                     LoginIp = Request.UserHostAddress,
                     LoginDateTime = DateTime.Now
                 };
 
+                // Fix: Changed the type from 'UDataRegister' to 'ULoginResult' (or the correct type that contains 'Status' and 'StatusMsg')
                 var userLogin = _session.UserLogin(data);
 
                 if (userLogin.Status)

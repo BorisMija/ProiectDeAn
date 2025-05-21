@@ -5,7 +5,7 @@ namespace CryptoWallet.BusinessLogic.Interfaces
 {
     public interface ISession
     {
-        UDataRegister UserLogin(ULoginData data);
+        ULoginData UserLogin(ULoginData data);
 
         UserResp LogInLogic(ULoginData data);
 

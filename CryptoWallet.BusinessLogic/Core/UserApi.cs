@@ -14,18 +14,14 @@ using Microsoft.AspNetCore.Http;
 
 
 
+
+
+
 namespace eUseControl.BusinessLogic.Core
 {
     public class UserApi
     {
-        private readonly IHttpContextAccessor _httpContextAccessor;
-
-        // Constructor to inject IHttpContextAccessor
-        public UserApi(IHttpContextAccessor httpContextAccessor)
-        {
-            _httpContextAccessor = httpContextAccessor;
-        }
-
+   
         public string RegisterUser(UDataRegister model)
         {
             using (var db = new UserContext())
@@ -38,7 +34,8 @@ namespace eUseControl.BusinessLogic.Core
                     Email = model.Email,
                     Password = LogRegHelper.HashPassword(model.Password),
                     LastLogin = model.RegisterDataTime,
-                    LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString(),
+                    //LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString()
+
                     Role = URole.User
                 };
 
@@ -84,10 +81,10 @@ namespace eUseControl.BusinessLogic.Core
                     }
                 }
 
-                user.LastLogin = model.LoginDataTime;
+                user.LastLogin = model.LoginDateTime;
 
                 // Fix for CS0120: Use the injected IHttpContextAccessor instance
-                user.LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
+                //user.LastIp = HttpContext.Current.HttpContext?.Connection?.RemoteIpAddress?.ToString();
 
                 using (var db = new UserContext())
                 {
