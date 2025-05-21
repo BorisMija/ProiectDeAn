@@ -1,6 +1,10 @@
 ﻿namespace CryptoWallet.Domain.Enums
 {
-    enum URole
+    public enum URole
     {
+        User = 100,
+        Moderator = 200,
+        Admin = 300,
+        SuperAdmin = 400
     }
 }
