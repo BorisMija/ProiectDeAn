@@ -1,90 +1,130 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\",
+  "WorkspaceRootPath": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|c:\\users\\boris\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\tweb\\cryptowallet\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.domain\\entities\\user\\useractionresponse\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\useractionresponse\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\views\\buycrypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\buycrypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\register\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.businesslogic\\dbmodel\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\dbmodel\\sessioncontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.domain\\enums\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\enums\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.helpers\\session\\cookiegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|solutionrelative:cryptowallet.helpers\\session\\cookiegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.businesslogic\\blstruct\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\blstruct\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\interfaces\\isession.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.businesslogic\\blstruct\\registerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\blstruct\\registerbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.domain\\entities\\user\\useractionresponse\\usercookieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\useractionresponse\\usercookieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.domain\\enums\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\enums\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.domain\\entities\\user\\udataregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\entities\\user\\udataregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\udataregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.businesslogic\\interfaces\\iregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\interfaces\\iregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\bussineslogic.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|c:\\users\\yamato\\desktop\\anul 2 sem 2\\proiect de an\\cryptocode-cryptocurrency-html-template\\proiectdean\\cryptowallet.domain\\entities\\session\\sessiondbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\session\\sessiondbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\blstruct\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\blstruct\\sessionbl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.helpers\\regflow\\logreghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\core\\userapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\udbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\registercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\enums\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\enums\\urole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\dbmodel\\usercontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.helpers\\regflow\\logreghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|solutionrelative:cryptowallet.helpers\\regflow\\logreghelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\ulogindata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\controllers\\buycryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\buycryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.helpers\\session\\cookiegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|solutionrelative:cryptowallet.helpers\\session\\cookiegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\controllers\\sellcryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\sellcryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.helpers\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|solutionrelative:cryptowallet.helpers\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.helpers\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|solutionrelative:cryptowallet.helpers\\app.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\enums\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\enums\\loginresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\entities\\user\\useractionresponse\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\useractionresponse\\userresp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\entities\\user\\useractionresponse\\usercookieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\user\\useractionresponse\\usercookieresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\entities\\session\\sessiondbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\entities\\session\\sessiondbtable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\interfaces\\iregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\interfaces\\iregister.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\core\\adminapi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\views\\buycrypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\buycrypto\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\boris\\AdminApi.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -96,68 +136,40 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\boris\\LogRegHelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\controllers\\buycryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\buycryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.helpers\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.helpers\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1EFF2D28-EA1E-4D0D-82C9-6051B3EF4E6B}|CryptoWallet.Helpers\\CryptoWallet.Helpers.csproj|solutionrelative:cryptowallet.helpers\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.domain\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.domain\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8922F665-A312-4733-BDC2-584D122F8556}|CryptoWallet.Domain\\CryptoWallet.Domain.csproj|solutionrelative:cryptowallet.domain\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet.businesslogic\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet.businesslogic\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{87A19B96-688D-439C-B509-4B43EE05CBE0}|CryptoWallet.BusinessLogic\\CryptoWallet.BusinessLogic.csproj|solutionrelative:cryptowallet.businesslogic\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\models\\userlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\controllers\\sellcryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\controllers\\sellcryptocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\cryptowallet\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\shared\\_navbar.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\views\\login\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\cryptowallet\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A6412286-74C8-4618-B978-218076075097}|CryptoWallet\\CryptoWallet.csproj|solutionrelative:cryptowallet\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -167,8 +179,55 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 7,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserApi.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwBsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:41.931Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UDataRegister.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:43.273Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "RegisterController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\RegisterController.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\RegisterController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\RegisterController.cs",
+              "RelativeToolTip": "CryptoWallet\\Controllers\\RegisterController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T15:24:13.128Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
@@ -180,466 +239,464 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserApi.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Core\\UserApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:41.931Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "CryptoWallet\\Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "CryptoWallet\\Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Login\\Index.cshtml",
+              "RelativeDocumentMoniker": "CryptoWallet\\Views\\Login\\Index.cshtml",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Login\\Index.cshtml",
+              "RelativeToolTip": "CryptoWallet\\Views\\Login\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-21T13:37:03.055Z",
+              "WhenOpened": "2025-05-20T11:00:44.645Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "UserResp.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAZAAAAAAAAAA==",
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\LoginController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "CryptoWallet\\Controllers\\LoginController.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAqwBcAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:53:14.761Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "UserContext.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAhwA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:42.088Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "UDbTable.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAABIAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:42.808Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "SessionContext.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\DBModel\\SessionContext.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\DBModel\\SessionContext.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\DBModel\\SessionContext.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\DBModel\\SessionContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:50:34.911Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "URole.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Enums\\URole.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Enums\\URole.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Enums\\URole.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Enums\\URole.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAIAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:43.458Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CookieGenerator.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
-              "RelativeToolTip": "CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:24:43.82Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T10:58:11.299Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
-              "RelativeDocumentMoniker": "CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
-              "RelativeToolTip": "CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAgAAAAAAAAAA==",
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Register\\Index.cshtml",
+              "RelativeDocumentMoniker": "CryptoWallet\\Views\\Register\\Index.cshtml",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Register\\Index.cshtml",
+              "RelativeToolTip": "CryptoWallet\\Views\\Register\\Index.cshtml",
+              "ViewState": "AgIAAAUAAAAAAAAAAAAAABwAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T11:01:18.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T15:21:53.163Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "AdminApi.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 3,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "CryptoWallet\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "CryptoWallet\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T13:37:03.055Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "CryptoWallet\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "CryptoWallet\\Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T17:00:36.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "CryptoWallet\\App_Start\\BundleConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:41.76Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T10:48:50.914Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SessionBL.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwCEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:03:49.903Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "ISession.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Interfaces\\ISession.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAUAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:42.267Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "RegisterBL.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\BLStruct\\RegisterBL.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\BLStruct\\RegisterBL.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\BLStruct\\RegisterBL.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\BLStruct\\RegisterBL.cs",
+              "DocumentIndex": 7,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "CryptoWallet\\Controllers\\HomeController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:03:34.392Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:40.986Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 13,
-              "Title": "UserCookieResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Title": "ULoginData.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBAAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:53:13.04Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:42.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "BussinesLogic.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\BussinesLogic.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:32.691Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "UDbTable.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UDbTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:42.808Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "SessionBL.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\BLStruct\\SessionBL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAYAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:03:49.903Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 14,
-              "Title": "LogInResult.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Enums\\LogInResult.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Enums\\LogInResult.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Enums\\LogInResult.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Enums\\LogInResult.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "URole.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\URole.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Enums\\URole.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\URole.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Enums\\URole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:54:26.361Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:43.458Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 15,
-              "Title": "UDataRegister.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UDataRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Title": "UserContext.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\DBModel\\UserContext.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAhwA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:43.273Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:42.088Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 16,
-              "Title": "IRegister.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Title": "LogRegHelper.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
+              "RelativeToolTip": "CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:59:14.774Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:32:31.699Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 17,
-              "Title": "BussinesLogic.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\BussinesLogic.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:32.691Z",
-              "EditorCaption": ""
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\packages.config",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\packages.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\packages.config",
+              "RelativeToolTip": "CryptoWallet.Domain\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T14:30:06.507Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 18,
-              "Title": "SessionDbTable.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:55:50.719Z",
-              "EditorCaption": ""
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\packages.config",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\packages.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\packages.config",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\packages.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T14:30:02.222Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 19,
-              "Title": "LogRegHelper.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
-              "RelativeToolTip": "CryptoWallet.Helpers\\RegFlow\\LogRegHelper.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAAAQwBAAAAAoAAAAAAAAAA==",
+              "Title": "BuyCryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "RelativeToolTip": "CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:32:31.699Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:40.678Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 20,
-              "Title": "ULoginData.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\ULoginData.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Title": "CookieGenerator.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
+              "RelativeToolTip": "CryptoWallet.Helpers\\Session\\CookieGenerator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:42.98Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "LogRegHelper.cs",
-              "DocumentMoniker": "D:\\boris\\LogRegHelper.cs",
-              "ToolTip": "D:\\boris\\LogRegHelper.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:31:44.657Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "UserApi.cs",
-              "DocumentMoniker": "D:\\boris\\UserApi.cs",
-              "ToolTip": "D:\\boris\\UserApi.cs",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:35:30.435Z"
+              "WhenOpened": "2025-05-21T13:24:43.82Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 21,
-              "Title": "AdminApi.cs",
-              "DocumentMoniker": "D:\\boris\\AdminApi.cs",
-              "ToolTip": "D:\\boris\\AdminApi.cs",
+              "Title": "SellCryptoController.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "RelativeToolTip": "CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T12:36:20.996Z"
+              "WhenOpened": "2025-05-20T11:03:40.833Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\HomeController.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "CryptoWallet\\Controllers\\HomeController.cs",
+              "DocumentIndex": 23,
+              "Title": "app.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\app.config",
+              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\app.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\app.config",
+              "RelativeToolTip": "CryptoWallet.Helpers\\app.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:40.986Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T14:21:20.597Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "BuyCryptoController.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\BuyCryptoController.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\BuyCryptoController.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\BuyCryptoController.cs",
-              "RelativeToolTip": "CryptoWallet\\Controllers\\BuyCryptoController.cs",
+              "DocumentIndex": 22,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\packages.config",
+              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\packages.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\packages.config",
+              "RelativeToolTip": "CryptoWallet.Helpers\\packages.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:40.678Z",
-              "EditorCaption": ""
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-05-21T14:21:21.844Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 24,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\LoginController.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "CryptoWallet\\Controllers\\LoginController.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Title": "LogInResult.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\LogInResult.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Enums\\LogInResult.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Enums\\LogInResult.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Enums\\LogInResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T10:58:11.299Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:54:26.361Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 25,
+              "Title": "UserResp.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserResp.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwA4AAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:43.615Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:53:14.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "UserCookieResponse.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\User\\UserActionResponse\\UserCookieResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:53:13.04Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 27,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "SessionDbTable.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Entities\\Session\\SessionDbTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:43.944Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-21T12:55:50.719Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 29,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Title": "AdminApi.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Core\\AdminApi.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:42.447Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:41.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "IRegister.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Interfaces\\IRegister.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T12:59:14.774Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
-              "Title": "Global.asax.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Global.asax.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Global.asax.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Global.asax.cs",
-              "RelativeToolTip": "CryptoWallet\\Global.asax.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:41.564Z",
-              "EditorCaption": ""
+              "Title": "index.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
+              "RelativeDocumentMoniker": "CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
+              "RelativeToolTip": "CryptoWallet\\Views\\BuyCrypto\\index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFIAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-20T11:01:18.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "UserLogin.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Models\\UserLogin.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Models\\UserLogin.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Models\\UserLogin.cs",
-              "RelativeToolTip": "CryptoWallet\\Models\\UserLogin.cs",
+              "DocumentIndex": 33,
+              "Title": "LogRegHelper.cs",
+              "DocumentMoniker": "D:\\boris\\LogRegHelper.cs",
+              "ToolTip": "D:\\boris\\LogRegHelper.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:41.37Z",
+              "WhenOpened": "2025-05-21T12:31:44.657Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 32,
-              "Title": "AssemblyInfo.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Properties\\AssemblyInfo.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Properties\\AssemblyInfo.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Properties\\AssemblyInfo.cs",
-              "RelativeToolTip": "CryptoWallet\\Properties\\AssemblyInfo.cs",
+              "Title": "UserApi.cs",
+              "DocumentMoniker": "D:\\boris\\UserApi.cs",
+              "ToolTip": "D:\\boris\\UserApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:41.171Z",
+              "WhenOpened": "2025-05-21T12:35:30.435Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "SellCryptoController.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\SellCryptoController.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\Controllers\\SellCryptoController.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Controllers\\SellCryptoController.cs",
-              "RelativeToolTip": "CryptoWallet\\Controllers\\SellCryptoController.cs",
+              "DocumentIndex": 31,
+              "Title": "AdminApi.cs",
+              "DocumentMoniker": "D:\\boris\\AdminApi.cs",
+              "ToolTip": "D:\\boris\\AdminApi.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:40.833Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "RouteConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\App_Start\\RouteConfig.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\App_Start\\RouteConfig.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\App_Start\\RouteConfig.cs",
-              "RelativeToolTip": "CryptoWallet\\App_Start\\RouteConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:40.433Z",
+              "WhenOpened": "2025-05-21T12:36:20.996Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 35,
-              "Title": "FilterConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\App_Start\\FilterConfig.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\App_Start\\FilterConfig.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\App_Start\\FilterConfig.cs",
-              "RelativeToolTip": "CryptoWallet\\App_Start\\FilterConfig.cs",
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CryptoWallet.Domain\\Properties\\AssemblyInfo.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T11:03:40.259Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:03:43.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CryptoWallet.Helpers\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:43.944Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 36,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CryptoWallet.BusinessLogic\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:42.447Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Global.asax.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Global.asax.cs",
+              "RelativeToolTip": "CryptoWallet\\Global.asax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:41.564Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "CryptoWallet\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:41.171Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "CryptoWallet\\App_Start\\RouteConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:40.433Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "CryptoWallet\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "CryptoWallet\\App_Start\\FilterConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:03:40.259Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
               "Title": "Web.config",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Web.config",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.config",
               "RelativeDocumentMoniker": "CryptoWallet\\Web.config",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Web.config",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Web.config",
               "RelativeToolTip": "CryptoWallet\\Web.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAADoAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
@@ -648,42 +705,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "_Navbar.cshtml",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\Shared\\_Navbar.cshtml",
+              "DocumentMoniker": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Shared\\_Navbar.cshtml",
               "RelativeDocumentMoniker": "CryptoWallet\\Views\\Shared\\_Navbar.cshtml",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\Shared\\_Navbar.cshtml",
+              "ToolTip": "C:\\Users\\boris\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\.vs\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\v17\\TWeb\\CryptoWallet\\Views\\Shared\\_Navbar.cshtml",
               "RelativeToolTip": "CryptoWallet\\Views\\Shared\\_Navbar.cshtml",
               "ViewState": "AgIAABAAAAAAAAAAAAAIwCcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T11:01:46.155Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\Login\\Index.cshtml",
-              "RelativeDocumentMoniker": "CryptoWallet\\Views\\Login\\Index.cshtml",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\Views\\Login\\Index.cshtml",
-              "RelativeToolTip": "CryptoWallet\\Views\\Login\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-05-20T11:00:44.645Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 39,
-              "Title": "BundleConfig.cs",
-              "DocumentMoniker": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\App_Start\\BundleConfig.cs",
-              "RelativeDocumentMoniker": "CryptoWallet\\App_Start\\BundleConfig.cs",
-              "ToolTip": "C:\\Users\\Yamato\\Desktop\\Anul 2 sem 2\\Proiect de an\\cryptocode-cryptocurrency-html-template\\ProiectDeAn\\CryptoWallet\\App_Start\\BundleConfig.cs",
-              "RelativeToolTip": "CryptoWallet\\App_Start\\BundleConfig.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T10:48:50.914Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-20T11:01:46.155Z"
             }
           ]
         }

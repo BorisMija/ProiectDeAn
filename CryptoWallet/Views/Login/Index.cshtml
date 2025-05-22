@@ -1,2 +1,24 @@
-﻿
-<h2>title</h2>
+﻿@{
+    Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Login";
+
+}
+@using System.Web.Optimization;
+@model CryptoWallet.Models.Login.UserLogin
+
+<h2>Register</h2>
+@using (Html.BeginForm("Index","Login", FormMethod.Post))
+{
+    <div class="container">
+
+        @Html.LabelFor(u => u.NameOrEmail)
+
+        @Html.TextBoxFor(u => u.NameOrEmail)
+
+        @Html.LabelFor(u => u.Password)
+
+        @Html.TextBoxFor(u => u.Password)
+        <button type="submit">Register</button>
+
+    </div>
+}

@@ -1,4 +1,5 @@
-﻿using System.Web.Optimization;
+﻿using System.Data.Entity.Infrastructure;
+using System.Web.Optimization;
 
 public class BundleConfig
 {
@@ -13,15 +14,15 @@ public class BundleConfig
             .Include("~/Content/css/style.css", new CssRewriteUrlTransform())); // Custom CSS last
 
         // JavaScript Bundle
-        bundles.Add(new ScriptBundle("~/bundles/js").Include(
-            "~/Scripts/jquery-1.11.0.min.js", // Corrected jQuery version based on your project
-            "~/Scripts/modernizr.js",
-            "~/Scripts/plugins.js",
-            "~/Scripts/script.js",
-            "~/Scripts/bootstrap.bundle.min.js", // Bootstrap JS is in the Scripts folder
-            "~/Scripts/chocolat.js", // Chocolat JS is in the Scripts folder
-            "~/Scripts/masonry.pkgd.min.js"
-        ));
+        bundles.Add(new ScriptBundle("~/bundles/js")
+            .Include("~/Scripts/jquery-1.11.0.min.js")// Corrected jQuery version based on your project
+            .Include("~/Scripts/modernizr.js")
+            .Include("~/Scripts/plugins.js")
+            .Include("~/Scripts/script.js") 
+            .Include( "~/Scripts/bootstrap.bundle.min.js") // Bootstrap JS is in the Scripts folder
+            .Include( "~/Scripts/chocolat.js") // Chocolat JS is in the Scripts folder
+            .Include("~/Scripts/masonry.pkgd.min.js")
+        );
 
         // jQuery Validation Bundle
         bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(

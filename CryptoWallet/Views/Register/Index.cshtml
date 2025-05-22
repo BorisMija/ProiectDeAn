@@ -1,0 +1,29 @@
+@{
+Layout = "/Views/Shared/_Layout.cshtml";
+    ViewBag.Title = "Register";
+
+}
+@using System.Web.Optimization;
+@model CryptoWallet.Models.UserDataRegister
+
+<h2>Register</h2>
+@using (Html.BeginForm("Reg", "Register", FormMethod.Post))
+{
+    <div class="container">
+
+        @Html.LabelFor(u => u.Email)
+
+        @Html.TextBoxFor(u => u.Email)
+
+
+        @Html.LabelFor(u => u.Name)
+
+        @Html.TextBoxFor(u => u.Name)
+
+        @Html.LabelFor(u => u.Password)
+
+        @Html.TextBoxFor(u => u.Password)
+        <button type="submit">Register</button>
+
+    </div>
+}

@@ -4,6 +4,7 @@ using CryptoWallet.BusinessLogic;
 using CryptoWallet.BusinessLogic.Interfaces;
 using CryptoWallet.Domain.Entities.User;
 using CryptoWallet.Models;
+using CryptoWallet.Models.Login;
 
 namespace CryptoWallet.Controllers
 {
@@ -13,14 +14,14 @@ namespace CryptoWallet.Controllers
 
         public LoginController()
         {
-            var bl = new BussinesLogic();
+            var bl = new BusinessLogic.BussinesLogic();
             _session = bl.GetSessionBL();
         }
 
         // GET: Login
         public ActionResult Index()
         {
-            return View();
+            return View(new UserLogin());
         }
 
         [HttpPost]
@@ -31,7 +32,7 @@ namespace CryptoWallet.Controllers
             {
                 ULoginData data = new ULoginData
                 {
-                    Credential = login.Credential,
+                    NameOrEmail = login.NameOrEmail,
                     Password = login.Password,
                     LoginIp = Request.UserHostAddress,
                     LoginDateTime = DateTime.Now

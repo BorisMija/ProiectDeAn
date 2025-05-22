@@ -14,7 +14,7 @@ namespace CryptoWallet.Domain.Entities.User
         public DateTime LoginDataTime { get; set; }
 
         public bool IsActive { get; set; }
-
+        public DateTime LoginDateTime { get; set; }
     }
     
 }

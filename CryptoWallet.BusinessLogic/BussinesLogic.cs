@@ -5,21 +5,12 @@ using CryptoWallet.BusinessLogic.Interfaces;
 
 namespace CryptoWallet.BusinessLogic
 {
-    public class BusinessLogic
+    public class BussinesLogic
     {
         private static SessionBL _sessionBL;
-        public class BusinesLogic
+        public ISession GetSessionBL()
         {
-            public ISession GetSessionBL()
-            {
-                return new SessionBL();
-            }
-
-            public IRegister GetRegisterBL()
-            {
-                return new RegisterBL();
-            }
+            return new SessionBL();
         }
-
     }
 }

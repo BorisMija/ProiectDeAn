@@ -1,12 +1,3 @@
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.dll
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.pdb
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.dll
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.pdb
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.AssemblyReference.cache
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.CoreCompileInputs.cache
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWa.182704E0.Up2Date
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.dll
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.pdb
 C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.dll
 C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.pdb
 C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.dll
@@ -16,3 +7,46 @@ C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-htm
 C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWa.182704E0.Up2Date
 C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.dll
 C:\Users\Yamato\Desktop\Anul 2 sem 2\Proiect de an\cryptocode-cryptocurrency-html-template\ProiectDeAn\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.dll.config
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Domain.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.Http.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.ObjectPool.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.Options.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.Primitives.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Net.Http.Headers.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Buffers.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.IO.Pipelines.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Memory.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\CryptoWallet.Helpers.dll.config
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.Http.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.ObjectPool.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.Options.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Extensions.Primitives.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\Microsoft.Net.Http.Headers.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Buffers.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.IO.Pipelines.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Memory.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.AssemblyReference.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.csproj.CoreCompileInputs.cache
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWa.182704E0.Up2Date
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Domain\obj\Debug\CryptoWallet.Domain.pdb

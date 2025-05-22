@@ -18,27 +18,20 @@ namespace eUseControl.BusinessLogic.Core
 {
     public class UserApi
     {
-        private readonly IHttpContextAccessor _httpContextAccessor;
 
-        // Constructor to inject IHttpContextAccessor
-        public UserApi(IHttpContextAccessor httpContextAccessor)
-        {
-            _httpContextAccessor = httpContextAccessor;
-        }
-
-        public string RegisterUser(UDataRegister model)
+        public UDataRegister RegisterUser(UDataRegister model)
         {
             using (var db = new UserContext())
             {
-                if (db.Users.Any(u => u.Username == model.Name || u.Email == model.Email))
-                    return null;
+                
 
                 var user = new UDbTable
                 {
                     Email = model.Email,
+                    Username = model.Name,
                     Password = LogRegHelper.HashPassword(model.Password),
-                    LastLogin = model.RegisterDataTime,
-                    LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString(),
+                    LastLogin = DateTime.Now,
+                    //LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString(),
                     Role = URole.User
                 };
 
@@ -48,7 +41,7 @@ namespace eUseControl.BusinessLogic.Core
                 // Generate a token for the user
                 string token = LogRegHelper.GenerateSecureToken(user.Id);
 
-                return token;
+                return model;
             }
         }
 
@@ -86,8 +79,7 @@ namespace eUseControl.BusinessLogic.Core
 
                 user.LastLogin = model.LoginDataTime;
 
-                // Fix for CS0120: Use the injected IHttpContextAccessor instance
-                user.LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString();
+              
 
                 using (var db = new UserContext())
                 {
