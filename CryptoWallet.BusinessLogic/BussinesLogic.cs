@@ -1,16 +1,20 @@
-﻿using CryptoWallet.BusinessLogic.BLStruct;
+﻿using CryptoWallet.BusinessLogic.BLogic;
+using CryptoWallet.BusinessLogic.Core;
 using CryptoWallet.BusinessLogic.Interfaces;
-
-
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace CryptoWallet.BusinessLogic
 {
     public class BussinesLogic
     {
-        private static SessionBL _sessionBL;
-        public ISession GetSessionBL()
+        public IUser GetUserBL()
         {
-            return new SessionBL();
+            return new UserBL();
         }
     }
 }

@@ -1,45 +1,70 @@
-﻿using System;
+﻿using CryptoWallet.BusinessLogic;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using CryptoWallet.Models.AuthModel;
+using System.Web.UI;
 using CryptoWallet.BusinessLogic.Interfaces;
-using CryptoWallet.Domain.Model.User;
-using CryptoWallet.BusinessLogic.BLStructure;
+using CryptoWallet.Models.Auth;
+using System.Web.Configuration;
+using CryptoWallet.Domain.Entities.User;
+using CryptoWallet.Domain.User.Auth;
 
 namespace CryptoWallet.Controllers
 {
     public class AuthController : Controller
     {
-        private readonly IAuth _auth;
-
-
+        private readonly IUser _user;
         public AuthController()
         {
-            var bl = new BusinessLogic.BusinessLogic();
-            _auth = bl.GetAuthBL();
+            var bl = new BusinessLogic.BussinesLogic();
+            _user = bl.GetUserBL();
         }
-
         // GET: Auth
         public ActionResult Index()
         {
-            return View();
+            return View(new UserAuthData());
         }
-
-        [HttpPost]
-        public ActionResult Auth(UserDataLogin login)
+        public ActionResult Logout()
         {
+            Session.Clear();
 
-            var data = new ULoginData
+            if (Request.Cookies["UserToken"] != null)
             {
-                Username = login.Username,
-                Password = login.Password
+                var cookie = new HttpCookie("UserToken");
+                cookie.Expires = DateTime.Now.AddDays(-1); // Expiră cookie-ul
+                Response.Cookies.Add(cookie);
+            }
+
+            return RedirectToAction("Index", "Auth");
+        }
+        [HttpPost]
+        public ActionResult Auth(UserAuthData data)
+        {
+            var auth = new UserAuthAction()
+            {
+                LoginTime = DateTime.Now,
+                Password = data.Password,
+                Username = data.Username
             };
 
-            string token = _auth.UserAuthLogic(data);
+            string token = _user.AuthenticateUser(auth);
+            if (!string.IsNullOrEmpty(token))
+            {
+                var user = _user.GetUserByUsername(auth.Username);
 
-            return View();
+                Session["Username"] = user.Username;
+                Session["UserLevel"] = (int)user.Level;
+
+                Session["UserToken"] = token;
+
+                return RedirectToAction("Index", "Home");
+            }
+
+
+            ModelState.AddModelError("", "Autentificare eșuată. Verifică datele.");
+            return View("Index", data);
         }
     }
 }

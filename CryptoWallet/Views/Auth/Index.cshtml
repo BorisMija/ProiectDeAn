@@ -1,15 +1,15 @@
-﻿
+﻿﻿
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Register";
+    ViewBag.Title = "Auth";
 }
 
 @using System.Web.Optimization;
-@model CryptoWallet.Models.Reg.UserRegData
+@model CryptoWallet.Models.Auth.UserAuthData
 
-<h2>Register</h2>
+<h2>Log in</h2>
 
-@using (Html.BeginForm("Reg", "Register", FormMethod.Post))
+@using (Html.BeginForm("Auth", "Auth", FormMethod.Post))
 {
     <div class="container">
 
@@ -21,10 +21,6 @@
 
         @Html.TextBoxFor(u => u.Password)
 
-        @Html.LabelFor(u => u.Email)
-
-        @Html.TextBoxFor(u => u.Email)
-
-        <button type="submit">Register</button>
+        <button type="submit">Login</button>
     </div>
 }

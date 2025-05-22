@@ -1,7 +1,9 @@
-﻿using CryptoWallet.BusinessLogic.Interfaces;
-using CryptoWallet.Domain.Entities.User;
-using CryptoWallet.Models;
-using CryptoWallet.Models.Login;
+﻿using CryptoWallet.BusinessLogic;
+using CryptoWallet.Models.Reg;
+using CryptoWallet.BusinessLogic.Interfaces;
+using CryptoWallet.Domain.Entities.User.Reg;
+using CryptoWallet.Domain.User.Reg;
+using CryptoWallet.Models.Reg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,45 +14,30 @@ namespace CryptoWallet.Controllers
 {
     public class RegisterController : Controller
     {
-        private readonly ISession _session;
-
+        private readonly IUser _user;
         public RegisterController()
         {
             var bl = new BusinessLogic.BussinesLogic();
-            _session = bl.GetSessionBL();
-        }
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public ActionResult Reg(UserDataRegister login)
-        {
-            if (ModelState.IsValid)
-            {
-                UDataRegister data = new UDataRegister
-                {
-                    Email = login.Email,
-                    Name = login.Name,
-                    Password = login.Password,
-                  //  LoginIp = Request.UserHostAddress,
-                    LoginDateTime = DateTime.Now
-                };
-
-                var userLogin = _session.UserReg(data);
-
-                if (userLogin.Status)
-                {
-                    return RedirectToAction("Index", "Home");
-                }
-                else
-                {
-                    ModelState.AddModelError("", userLogin.StatusMsg);
-                }
-            }
-            return View();
+            _user = bl.GetUserBL();
         }
         // GET: Register
         public ActionResult Index()
         {
-            return View();
+            return View(new UserRegData());
+        }
+
+        public ActionResult Reg(UserRegData data)
+        {
+            var local = new RegDataActionDTO()
+            {
+                Username = data.Username,
+                Password = data.Password,
+                Email = data.Email
+            };
+
+            UserRegDataResp resp = _user.RegisterUserAction(local);
+
+            return RedirectToAction("Index", "Home");
         }
     }
 }

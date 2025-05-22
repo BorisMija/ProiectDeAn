@@ -10,100 +10,82 @@ using CryptoWallet.Domain.Enums;
 using CryptoWallet.Helpers.RegFlow;
 using eUseControl.BusinessLogic.DBModel;
 using Microsoft.AspNetCore.Http;
+using CryptoWallet.Domain.Entities.User.Reg;
+using CryptoWallet.Domain.User.Reg;
+using CryptoWallet.Domain.User.Auth;
 
 
 
 
-namespace eUseControl.BusinessLogic.Core
+namespace CryptoWallet.BusinessLogic.Core
 {
     public class UserApi
     {
-
-        public UDataRegister RegisterUser(UDataRegister model)
+        public string AuthenticateUserAction(UserAuthAction auth)
         {
             using (var db = new UserContext())
             {
-                
+                var user = db.Users.FirstOrDefault(u =>
+                    u.Username == auth.Username &&
+                    u.Password == auth.Password
+                );
 
-                var user = new UDbTable
+                if (user != null)
                 {
-                    Email = model.Email,
-                    Username = model.Name,
-                    Password = LogRegHelper.HashPassword(model.Password),
-                    LastLogin = DateTime.Now,
-                    //LastIp = _httpContextAccessor.HttpContext?.Connection?.RemoteIpAddress?.ToString(),
-                    Role = URole.User
-                };
+                    user.LastLogin = DateTime.Now;
+                    db.SaveChanges();
 
-                db.Users.Add(user);
-                db.SaveChanges();
+                    return Guid.NewGuid().ToString();
+                }
+            }
 
-                // Generate a token for the user
-                string token = LogRegHelper.GenerateSecureToken(user.Id);
-
-                return model;
+            return null;
+        }
+        public UDbTable GetUserByUsernameAction(string username)
+        {
+            using (var db = new UserContext())
+            {
+                return db.Users.FirstOrDefault(u => u.Username == username);
             }
         }
-
-        public UserResp LogInUser(ULoginData model)
+        internal UserRegDataResp SetRegisterUserAction(RegDataActionDTO local)
         {
-            try
+
+            UDbTable user;
+
+            using (var db = new UserContext())
             {
-                string hashedPassword = LogRegHelper.HashPassword(model.Password);
-                UDbTable user;
-
-                using (var dbContext = new UserContext())
-                {
-                    // Check if the user exists in the database
-                    user = dbContext.Users.FirstOrDefault(u => u.Email == model.NameOrEmail);
-
-                    if (user == null)
-                    {
-                        return new UserResp
-                        {
-                            Status = false,
-                            Result = LogInResult.EmailNotFound
-                        };
-                    }
-
-                    // Incorrect password
-                    if (user.Password != hashedPassword)
-                    {
-                        return new UserResp
-                        {
-                            Status = false,
-                            Result = LogInResult.WrongPassword
-                        };
-                    }
-                }
-
-                user.LastLogin = model.LoginDataTime;
-
-              
-
-                using (var db = new UserContext())
-                {
-                    db.Entry(user).State = EntityState.Modified;
-                    db.SaveChanges();
-                }
-
-                // Generate a response for the user
-                return new UserResp
-                {
-                    Status = true,
-                    Result = LogInResult.Success,
-                    UserId = user.Id,
-                };
+                user = db.Users.FirstOrDefault(u => u.Username == local.Username);
             }
-            catch (Exception ex)
+
+            if (user != null)
             {
-                Console.WriteLine($"Error in UserLogInLogic: {ex.Message}");
-                return new UserResp
+                return new UserRegDataResp()
                 {
                     Status = false,
-                    Result = LogInResult.UnknownError,
+                    Error = "This Username already exists"
                 };
             }
+
+            var u_data = new UDbTable()
+            {
+                Username = local.Username,
+                Password = local.Password,
+                Email = local.Email,
+                LastLogin = DateTime.Now,
+                Level = URole.User,
+            };
+
+            using (var db = new UserContext())
+            {
+                db.Users.Add(u_data);
+                db.SaveChanges();
+            }
+
+
+
+
+            return new UserRegDataResp() { Status = true };
         }
     }
 }

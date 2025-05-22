@@ -66,7 +66,6 @@ C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\Crypt
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.Web.WebPages.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.Web.WebPages.Razor.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\WebGrease.dll
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\CryptoWallet.Helpers.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\CryptoWallet.BusinessLogic.pdb
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\CryptoWallet.BusinessLogic.dll.config
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\CryptoWallet.Domain.pdb
@@ -99,8 +98,6 @@ C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\Crypt
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.Web.WebPages.xml
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.Web.WebPages.Deployment.xml
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.Web.WebPages.Razor.xml
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\CryptoWallet.Helpers.pdb
-C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\CryptoWallet.Helpers.dll.config
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\obj\Debug\CryptoWallet.csproj.AssemblyReference.cache
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\obj\Debug\CryptoWallet.csproj.CoreCompileInputs.cache
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\obj\Debug\CryptoWa.8D7A2934.Up2Date
