@@ -2,7 +2,7 @@
 using CryptoWallet.BusinessLogic.DBModel;
 using CryptoWallet.Domain.Entities.User;
 
-namespace eUseControl.BusinessLogic.DBModel
+namespace CryptoWallet.BusinessLogic.DBModel
 {
     class UserContext : DbContext
     {

@@ -8,7 +8,7 @@ using CryptoWallet.Domain.Entities.User;
 using CryptoWallet.Domain.Entities.User.UserActionResponse;
 using CryptoWallet.Domain.Enums;
 using CryptoWallet.Helpers.RegFlow;
-using eUseControl.BusinessLogic.DBModel;
+using CryptoWallet.BusinessLogic.DBModel;
 using Microsoft.AspNetCore.Http;
 using CryptoWallet.Domain.Entities.User.Reg;
 using CryptoWallet.Domain.User.Reg;
