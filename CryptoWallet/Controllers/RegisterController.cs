@@ -30,7 +30,7 @@ namespace CryptoWallet.Controllers
                     Email = login.Email,
                     Name = login.Name,
                     Password = login.Password,
-                    LoginIp = Request.UserHostAddress,
+                  //  LoginIp = Request.UserHostAddress,
                     LoginDateTime = DateTime.Now
                 };
 

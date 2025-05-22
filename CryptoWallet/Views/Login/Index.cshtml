@@ -18,6 +18,8 @@
         @Html.LabelFor(u => u.Password)
 
         @Html.TextBoxFor(u => u.Password)
+
+        @Html.AntiForgeryToken()
         <button type="submit">Register</button>
 
     </div>
