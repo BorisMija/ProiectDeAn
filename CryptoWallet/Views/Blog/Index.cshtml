@@ -1,0 +1,105 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="intro" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                <div class="section-title text-center">
+                    <small>Blog</small>
+                    <h2>Latest News and Updates</h2>
+                    <div class="breadcrumbs">
+                        <span class="item"><a href="/">Home /</a></span>
+                        <span class="item">Blog</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="latest-blog" class="scrollspy-section pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="post-grid">
+                    <div class="row" data-masonry='{"percentPosition": true }'>
+
+                        <!-- Post 1 -->
+                        <div class="col-md-4">
+                            <article class="post-item">
+                                <figure>
+                                    <a href="#" class="image-hvr-effect">
+                                        <img src="~/images/post-thumb-1.jpg" alt="post" class="post-image">
+                                    </a>
+                                </figure>
+                                <div class="post-content">
+                                    <div class="post-meta">Fashion</div>
+                                    <h2 class="post-title"><a href="#">Modern vibes bedrooms, today's trending design</a></h2>
+                                    
+                                    <a href="#" class="btn-link">Read more</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Post 2 -->
+                        <div class="col-md-4">
+                            <article class="post-item">
+                                <figure>
+                                    <a href="#" class="image-hvr-effect">
+                                        <img src="~/images/post-thumb-2.jpg" alt="post" class="post-image">
+                                    </a>
+                                </figure>
+                                <div class="post-content">
+                                    <div class="post-meta">Fashion</div>
+                                    <h2 class="post-title"><a href="#">How to make minimalist living rooms pop-out</a></h2>
+                                   
+                                    <a href="#" class="btn-link">Read more</a>
+                                </div>
+                            </article>
+                        </div>
+
+                        <!-- Post 3 -->
+                        <div class="col-md-4">
+                            <article class="post-item">
+                                <figure>
+                                    <a href="#" class="image-hvr-effect">
+                                        <img src="~/images/post-thumb-3.jpg" alt="post" class="post-image">
+                                    </a>
+                                </figure>
+                                <div class="post-content">
+                                    <div class="post-meta">Fashion</div>
+                                    <h2 class="post-title"><a href="#">How to make your resort look outstanding</a></h2>
+                                   
+                                    <a href="#" class="btn-link">Read more</a>
+                                </div>
+                            </article>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="subscribe" class="padding-large pattern-circle">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+            <div class="col-md-8">
+                <div class="subscribe-content">
+                    <div class="subscribe-header text-center">
+                        <h2 class="display-5">Subscribe & get news updates</h2>
+                        
+                    </div>
+                    <form id="form" class="border-set-bold border-rounded-20">
+                        <input type="text" name="email" placeholder="Write your email here" class="btn-rounded">
+                        <button class="btn btn-linear btn-medium btn-rounded text-uppercase">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

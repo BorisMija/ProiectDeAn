@@ -5,6 +5,7 @@
             <img src="~/Content/images/main-logo.png" alt="logo">
         </a>
     </div>
+
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar"
             aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
         <!-- Ensure Iconify script is included -->
@@ -23,17 +24,20 @@
                         <a class="fw-bold" href="@Url.Action("Index", "Home")">Home</a>
                     </li>
                     @*<li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
-                        </li>*@
+            <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
+        </li>*@
                     <li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("Index", "BuyCrypto")">Buy Crypto</a>
                     </li>
+                    <li class="menu-item text-uppercase">
+                        <a class="fw-bold" href="@Url.Action("Index", "Blog")">Blog</a>
+                    </li>
                     @*<li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
-                        </li>
-                        <li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Contact", "Home")">Contact</a>
-                        </li>*@
+            <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
+        </li>
+        <li class="menu-item text-uppercase">
+            <a class="fw-bold" href="@Url.Action("Contact", "Home")">Contact</a>
+        </li>*@
                 </ul>
             </div>
             <div class="btn-wrap d-md-flex">
