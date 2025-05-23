@@ -1,0 +1,58 @@
+@Model.WalletViewModel
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="pt-5 pb-5">
+    <div class="container">
+        <h2 class="mb-4">Portofelul t?u</h2>
+
+        <h4>Valute de?inute:</h4>
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Moned?</th>
+                    <th>Simbol</th>
+                    <th>Cantitate</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var c in Model.Balances)
+                {
+                    <tr>
+                        <td>@c.Username</td>
+                        <td>@c.Symbol</td>
+                        <td>@c.Amount</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+
+        <h4 class="mt-5">Tranzac?ii recente:</h4>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Data</th>
+                    <th>Tip</th>
+                    <th>Moned?</th>
+                    <th>Cantitate</th>
+                    <th>Valoare (USD)</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var t in Model.Transactions)
+                {
+                    <tr>
+                        <td>@t.Date.ToString("yyyy-MM-dd HH:mm")</td>
+                        <td>@t.Type</td>
+                        <td>@t.Currency</td>
+                        <td>@t.Amount</td>
+                        <td>$@t.ValueInUSD</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</section>
