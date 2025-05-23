@@ -23,22 +23,42 @@
                         <a class="fw-bold" href="@Url.Action("Index", "Home")">Home</a>
                     </li>
                     @*<li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
-                    </li>*@
+                            <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
+                        </li>*@
                     <li class="menu-item text-uppercase">
                         <a class="fw-bold" href="@Url.Action("Index", "BuyCrypto")">Buy Crypto</a>
                     </li>
                     @*<li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
-                    </li>
-                    <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("Contact", "Home")">Contact</a>
-                    </li>*@
+                            <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
+                        </li>
+                        <li class="menu-item text-uppercase">
+                            <a class="fw-bold" href="@Url.Action("Contact", "Home")">Contact</a>
+                        </li>*@
                 </ul>
             </div>
             <div class="btn-wrap d-md-flex">
-                <a href="@Url.Action("Index", "Login")" class="btn btn-normal btn-medium align-self-center text-uppercase btn-rounded login-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                <a href="@Url.Action("Index", "Auth")" class="btn btn-normal btn-medium align-self-center text-uppercase btn-rounded login-btn" data-bs-toggle="modal" data-bs-target="#exampleModal">
                     Log In
+                    @{
+                        var username = Session["Username"] as string;
+                        var level = Session["UserLevel"] != null ? (int)Session["UserLevel"] : 0;
+
+                        if (!string.IsNullOrEmpty(username))
+                        {
+                            if (level >= 101)
+                            {
+                                @:Moderator: @username
+                            }
+                            else
+                            {
+                                @username
+                            }
+                        }
+                        else
+                        {
+                            @:Guest
+                        }
+                    }
                 </a>
                 <!-- Modal -->
                 <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"

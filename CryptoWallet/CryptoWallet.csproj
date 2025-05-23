@@ -262,7 +262,7 @@
     <Content Include="Scripts\bootstrap.esm.js.map" />
     <Content Include="Scripts\bootstrap.bundle.min.js.map" />
     <Content Include="Scripts\bootstrap.bundle.js.map" />
-    <None Include="Views\Home\index.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
     <Content Include="Scripts\chocolat.js" />
     <Content Include="Scripts\jquery-1.11.0.min.js" />
     <Content Include="Scripts\masonry.pkgd.min.js" />

@@ -9,8 +9,9 @@ namespace CryptoWallet.Domain.Enums
     public enum URole
     {
         Guest = 0,
-        User = 1,
+        User = 10,
         Moderator = 101,
-        Admin = 1000
+        Admin = 237,
+        Superadmin = 1200
     }
 }
