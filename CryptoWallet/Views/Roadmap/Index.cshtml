@@ -1,0 +1,237 @@
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section id="intro" class="pt-5 pb-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+                <div class="section-title text-center">
+                    <small>Services</small>
+                    <h2>Services we provide</h2>
+                    <div class="breadcrumbs">
+                        <span class="item"><a href="@Url.Action("Index", "Roadmap")">Roadmap /</a></span>
+                        <span class="item">Services</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section id="product-card" class="position-relative padding-large">
+    <div class="pattern-overlay">
+        <img src="@Url.Content("~/images/pattern-blur.png")" alt="pattern-overlay" />
+    </div>
+
+    <div class="container">
+        <div class="row d-flex flex-wrap">
+
+            <div class="col-md-4 my-5">
+                <div class="product-item text-center border-set-bold border-rounded-50 py-5 px-4">
+                    <div class="icon-holder mt-2">
+                        <iconify-icon icon="ant-design:transaction-outlined" class="services"></iconify-icon>
+                    </div>
+                    <div class="product-detail">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">Fast Transaction</h3>
+                            <span class="currency text-linear fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, praesentium, rem distinctio eos voluptatibus quas nisi,
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-5">
+                <div class="product-item text-center border-set-bold border-rounded-50 py-5 px-4">
+                    <div class="icon-holder mt-2">
+                        <iconify-icon icon="gala:secure" class="services"></iconify-icon>
+                    </div>
+                    <div class="product-detail">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">Secure and Stable</h3>
+                            <span class="currency text-linear fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, praesentium, rem distinctio eos voluptatibus quas nisi,
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-5">
+                <div class="product-item text-center border-set-bold border-rounded-50 py-5 px-4">
+                    <div class="icon-holder mt-2">
+                        <iconify-icon icon="bi:currency-exchange" class="services"></iconify-icon>
+                    </div>
+                    <div class="product-detail">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">Coin Exchange</h3>
+                            <span class="currency text-linear fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, praesentium, rem distinctio eos voluptatibus quas nisi,
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-5">
+                <div class="product-item text-center border-set-bold border-rounded-50 py-5 px-4">
+                    <div class="icon-holder mt-2">
+                        <iconify-icon icon="clarity:mobile-solid" class="services"></iconify-icon>
+                    </div>
+                    <div class="product-detail">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">Mobile Apps</h3>
+                            <span class="currency text-linear fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, praesentium, rem distinctio eos voluptatibus quas nisi,
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-5">
+                <div class="product-item text-center border-set-bold border-rounded-50 py-5 px-4">
+                    <div class="icon-holder mt-2">
+                        <iconify-icon icon="material-symbols:cycle" class="services"></iconify-icon>
+                    </div>
+                    <div class="product-detail">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">24/7 Trading</h3>
+                            <span class="currency text-linear fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, praesentium, rem distinctio eos voluptatibus quas nisi,
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-4 my-5">
+                <div class="product-item text-center border-set-bold border-rounded-50 py-5 px-4">
+                    <div class="icon-holder mt-2">
+                        <iconify-icon icon="solar:headphones-round-outline" class="services"></iconify-icon>
+                    </div>
+                    <div class="product-detail">
+                        <div class="card-header">
+                            <h3 class="card-title light mt-3 mb-3 fs-3">Free Consulting</h3>
+                            <span class="currency text-linear fs-5">
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione excepturi, praesentium, rem distinctio eos voluptatibus quas nisi,
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="association-with" class="padding-large">
+    <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between">
+            <img src="@Url.Content("~/images/association-brand1.png")" alt="brand" class="image-association" />
+            <img src="@Url.Content("~/images/association-brand2.png")" alt="brand" class="image-association" />
+            <img src="@Url.Content("~/images/association-brand3.png")" alt="brand" class="image-association" />
+            <img src="@Url.Content("~/images/association-brand4.png")" alt="brand" class="image-association" />
+            <img src="@Url.Content("~/images/association-brand5.png")" alt="brand" class="image-association" />
+        </div>
+    </div>
+</section>
+
+<section id="subscribe" class="padding-large pattern-circle">
+    <div class="container">
+        <div class="row d-flex justify-content-center">
+
+            <div class="col-md-8">
+                <div class="subscribe-content">
+                    <div class="subscribe-header text-center">
+                        <h2 class="display-5">Subscribe &amp; get news updates</h2>
+                        <p>
+                            Duis massa posuere commodo sed tortor ultrices accumsan augue. Aliquet bibendum placerat vivamus diam ullamcorper vitae sapien auctor ut. Suspendisse donec id aenean diam dolor nec vitae massa id. Velit nullam consequat orci amet fames sed. Amet tincidunt adipiscing varius maecenas adipiscing.
+                        </p>
+                    </div>
+                    <form id="form" class="border-set-bold border-rounded-20" method="post" action="@Url.Action("Subscribe", "Newsletter")">
+                        <input type="email" name="email" placeholder="Write your email here" class="btn-rounded" required />
+                        <button type="submit" class="btn btn-linear btn-medium btn-rounded text-uppercase">Subscribe Now</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<footer id="footer" class="padding-large">
+    <div class="container">
+        <div class="row d-flex flex-wrap justify-content-between">
+            <div class="col-lg-4 col-md-6">
+                <div class="footer-item item-001">
+                    <img src="@Url.Content("~/images/main-logo.png")" alt="logo" />
+                    <p>
+                        Posuere ac in in nisl sed augue. Ultrices eget pretium sit euismod mi id posuere ac in in nisl sed augue.
+                    </p>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-item item-002 content-light">
+                    <h4 class="widget-title">About</h4>
+                    <ul class="footer-menu list-unstyled text-uppercase">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Features</a></li>
+                        <li><a href="#">News</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-item item-003 content-light">
+                    <h4 class="widget-title">Company</h4>
+                    <ul class="footer-menu list-unstyled text-uppercase">
+                        <li><a href="#">Cryptocode</a></li>
+                        <li><a href="#">Security</a></li>
+                        <li><a href="#">Rankings</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-item item-004 content-light">
+                    <h4 class="widget-title">Support</h4>
+                    <ul class="footer-menu list-unstyled text-uppercase">
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-6">
+                <div class="footer-item item-005 content-light">
+                    <h4 class="widget-title">Social</h4>
+                    <ul class="footer-menu social-links list-unstyled d-flex">
+                        <li class="border-set-thin border-rounded-10"><a href="#"><i class="icon icon-facebook"></i></a></li>
+                        <li class="border-set-thin border-rounded-10"><a href="#"><i class="icon icon-twitter"></i></a></li>
+                        <li class="border-set-thin border-rounded-10"><a href="#"><i class="icon icon-instagram"></i></a></li>
+                        <li class="border-set-thin border-rounded-10"><a href="#"><i class="icon icon-linkedin"></i></a></li>
+                        <li class="border-set-thin border-rounded-10"><a href="#"><i class="icon icon-youtube"></i></a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer>
+
+<hr />
+
+<div id="footer-bottom">
+    <div class="container">
+        <div class="row text-center">
+            <p>© 2022 CryptoCode. Website designed by <a href="https://templatesjungle.com/" class="light" target="_blank" rel="noopener noreferrer">TemplatesJungle.</a></p>
+        </div>
+    </div>
+</div>
+
+<script src="@Url.Content("~/js/jquery-1.11.0.min.js")"></script>
+<script src="@Url.Content("~/assets/vendor/bootstrap-5.1.3/js/bootstrap.bundle.min.js")"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+<script type="text/javascript" src="@Url.Content("~/js/plugins.js")"></script>
+<script type="text/javascript" src="@Url.Content("~/js/script.js")"></script>
+<script src="https://code.iconify.design/iconify-icon/1.0.7/iconify-icon.min.js"></script>
