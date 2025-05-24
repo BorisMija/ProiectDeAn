@@ -106,3 +106,9 @@ C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\Crypt
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\obj\Debug\CryptoWa.FEC9AFCF.Up2Date
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\obj\Debug\CryptoWallet.BusinessLogic.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\obj\Debug\CryptoWallet.BusinessLogic.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.BusinessLogic\bin\Debug\System.Diagnostics.DiagnosticSource.xml

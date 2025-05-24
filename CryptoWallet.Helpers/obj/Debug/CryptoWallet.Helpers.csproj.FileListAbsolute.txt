@@ -44,3 +44,13 @@ C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\Crypt
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWa.C54026F4.Up2Date
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWallet.Helpers.dll
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\obj\Debug\CryptoWallet.Helpers.pdb
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\EntityFramework.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\EntityFramework.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet.Helpers\bin\Debug\System.Diagnostics.DiagnosticSource.xml

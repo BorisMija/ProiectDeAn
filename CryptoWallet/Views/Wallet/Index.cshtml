@@ -1,5 +1,4 @@
-@Model.WalletViewModel
-
+@model CryptoWallet.ViewModels.WalletViewModel
 
 @{
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -19,7 +18,7 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var c in Model.Balances)
+                @foreach (var c in Model.WalletCurrencies)
                 {
                     <tr>
                         <td>@c.Username</td>
