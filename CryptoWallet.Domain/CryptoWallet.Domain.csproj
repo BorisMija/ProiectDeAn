@@ -118,6 +118,7 @@
     <Compile Include="Entities\User\UDataRegister.cs" />
     <Compile Include="Entities\User\UserActionResponse\UserCookieResponse.cs" />
     <Compile Include="Entities\User\UserActionResponse\UserResp.cs" />
+    <Compile Include="Entities\User\WalletViewModel.cs" />
     <Compile Include="Enums\LogInResult.cs" />
     <Compile Include="Enums\TransactionType.cs" />
     <Compile Include="Enums\URole.cs" />

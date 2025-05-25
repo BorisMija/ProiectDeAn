@@ -6,7 +6,7 @@ namespace CryptoWallet.Models
     public class WalletCurrency
     {
         [Key]
-        public int Id { get; set; }
+        public int Id { get; set; } 
 
         [Required]
         [StringLength(100)]
@@ -26,8 +26,8 @@ namespace CryptoWallet.Models
         public decimal Amount { get; set; }
 
         [Required]
-        public string UserId { get; set; }
+        public string UserId { get; set; } 
 
-
+        
     }
 }

@@ -314,7 +314,6 @@
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Models\Reg\UserRagData.cs" />
     <Compile Include="Models\Auth\UserAuthData.cs" />
-    <Compile Include="Models\WalletViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

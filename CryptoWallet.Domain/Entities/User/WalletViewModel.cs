@@ -1,7 +1,7 @@
 ﻿using CryptoWallet.Models;
 using System.Collections.Generic;
 
-namespace CryptoWallet.ViewModels  
+namespace CryptoWallet.ViewModels
 {
     public class WalletViewModel
     {
