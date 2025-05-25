@@ -8,8 +8,6 @@ namespace CryptoWallet.Models
         [Key]
         public int Id { get; set; } 
 
-        [Required]
-        [StringLength(100)]
         public string Name { get; set; }
 
         public string Username { get; set; }
@@ -18,7 +16,7 @@ namespace CryptoWallet.Models
         [StringLength(10)]
         public string Symbol { get; set; }
 
-        [StringLength(10)]
+      
         public string CurrencyCode { get; set; }
 
         [Required]
@@ -26,8 +24,8 @@ namespace CryptoWallet.Models
         public decimal Amount { get; set; }
 
         [Required]
-        public string UserId { get; set; } 
+        public string UserId { get; set; }
 
-        
+   
     }
 }

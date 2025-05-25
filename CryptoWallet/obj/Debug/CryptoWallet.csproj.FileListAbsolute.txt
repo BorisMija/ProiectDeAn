@@ -119,3 +119,5 @@ C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\Crypt
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\Microsoft.Extensions.Logging.Abstractions.xml
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.Diagnostics.DiagnosticSource.xml
 C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\System.ValueTuple.xml
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Users\boris\OneDrive\Документы\.vs\Документы\v17\TWeb\CryptoWallet\bin\Microsoft.AspNet.Identity.Core.xml

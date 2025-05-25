@@ -18,7 +18,6 @@ namespace CryptoWallet.Models
         public decimal ValueInUSD { get; set; }
 
         public DateTime Date { get; set; }
-
-
+        public string UserId { get; set; }
     }
 }
