@@ -63,7 +63,7 @@ namespace CryptoWallet.BusinessLogic.Core
                 return new UserRegDataResp()
                 {
                     Status = false,
-                    Error = "This Username already exists"
+                    Error = "This Username a exists"
                 };
             }
 

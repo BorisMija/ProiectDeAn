@@ -6,7 +6,7 @@ namespace CryptoWallet.Domain.Entities.User
     {
 
 
-        public string Id { get; set; } = string.Empty;
+        public string UserId { get; set; } = string.Empty;
         public string NameOrEmail { get; set; } = string.Empty;
         public string Credential { get; set; }
         public string Password { get; set; }
