@@ -1,95 +1,74 @@
-﻿using System.Linq;
+﻿using System;
+using System.Linq;
 using System.Threading.Tasks;
 using BL.Interfaces;
+using CryptoWallet.BusinessLogic.DBModel;
 using CryptoWallet.Models;
 using CryptoWallet.ViewModels;
-using System.Data.Entity;
-using CryptoWallet.BusinessLogic.DBModel; // presupunând că UserContext este aici
 
 namespace BL.Services
 {
     public class WalletService : IWalletService
     {
-        private readonly UserContext _context;
+        private readonly UserContext _db;
 
-        public WalletService(UserContext context)
+        public WalletService(UserContext db)
         {
-            _context = context;
+            _db = db;
         }
 
-        // Returnează datele portofelului pentru un anumit user
-        public WalletViewModel GetWalletData(string userId)
+        public Task AddCurrencyAsync(WalletCurrency currency)
         {
-            var walletCurrencies = _context.WalletCurrencies
-                                           .Where(w => w.UserId == userId)
-                                           .ToList();
+            throw new NotImplementedException();
+        }
 
-            var transactions = _context.Transactions
-                                       .Where(t => t.UserId == userId)
-                                       .ToList();
+        public async Task AddOrUpdateCurrencyAsync(string userId, string symbol, decimal amount)
+        {
+            // Poți implementa o metodă reală care să obțină valoarea USD
+            decimal dummyUsdValue = amount * 1000; // Exemplu fix, înlocuiește cu API real
 
-            return new WalletViewModel
+            // Creează tranzacția nouă
+            var transaction = new Transaction
             {
-                WalletCurrencies = walletCurrencies,
-                Transactions = transactions
+                Type = "Buy",
+                Currency = symbol,
+                Amount = amount,
+                ValueInUSD = dummyUsdValue,
+                Date = DateTime.UtcNow,
+                UserId = userId
             };
-        }
 
-        // Adaugă o nouă monedă în portofel
-        public async Task AddCurrencyAsync(WalletCurrency currency)
-        {
-            _context.WalletCurrencies.Add(currency);
-            await _context.SaveChangesAsync();
-        }
+            _db.Transactions.Add(transaction);
 
-        // Adaugă o tranzacție nouă
-        public async Task AddTransactionAsync(Transaction transaction)
-        {
-            _context.Transactions.Add(transaction);
-            await _context.SaveChangesAsync();
-        }
-
-        // Adaugă sau actualizează o monedă în portofel (folosită la cumpărare crypto)
-        public async Task AddOrUpdateCurrencyAsync(string userId, string symbol, decimal amountToAdd)
-        {
-            var walletEntry = _context.WalletCurrencies
+            // Caută dacă userul are deja această monedă în wallet
+            var walletCurrency = _db.WalletCurrencies
                 .FirstOrDefault(w => w.UserId == userId && w.Symbol == symbol);
 
-            if (walletEntry != null)
+            if (walletCurrency == null)
             {
-                walletEntry.Amount += amountToAdd;
-                _context.Entry(walletEntry).State = EntityState.Modified;
-            }
-            else
-            {
-                var newEntry = new WalletCurrency
+                walletCurrency = new WalletCurrency
                 {
                     UserId = userId,
                     Symbol = symbol,
-                    Name = symbol,       // aici poți seta numele complet dacă ai
-                    Amount = amountToAdd,
-                    Username = userId,   // sau numele de utilizator dacă îl ai
-                    CurrencyCode = symbol
+                    Name = symbol,
+                    Amount = 0
                 };
-
-                _context.WalletCurrencies.Add(newEntry);
+                _db.WalletCurrencies.Add(walletCurrency);
             }
 
-            try
-            {
-                await _context.SaveChangesAsync();
-            }
-            catch (System.Data.Entity.Validation.DbEntityValidationException e)
-            {
-                var errorMessages = e.EntityValidationErrors
-                                     .SelectMany(x => x.ValidationErrors)
-                                     .Select(x => x.ErrorMessage);
+            walletCurrency.Amount += amount;
 
-                var fullErrorMessage = string.Join("; ", errorMessages);
-                var exceptionMessage = string.Concat(e.Message, " The validation errors are: ", fullErrorMessage);
+            await _db.SaveChangesAsync();
+        }
 
-                throw new System.Data.Entity.Validation.DbEntityValidationException(exceptionMessage, e.EntityValidationErrors);
-            }
+        public Task AddTransactionAsync(Transaction transaction)
+        {
+            throw new NotImplementedException();
+        }
+
+        public WalletViewModel GetWalletData(string userId)
+        {
+            throw new NotImplementedException();
         }
     }
 }

@@ -1,24 +1,49 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using CryptoWallet.BusinessLogic.DBModel;
+using CryptoWallet.Domain.Entities.User;
 
 namespace CryptoWallet.BusinessLogic.Core
 {
     public class AdminApi
     {
-
-        public void DeleteOffer(string offerId)
+        /// <summary>
+        /// Returnează toți utilizatorii din baza de date.
+        /// </summary>
+        public List<UDbTable> GetAllUsers()
         {
+            using (var db = new UserContext())
+            {
+                return db.Users.ToList();
+            }
         }
 
-        public void UpdateOffer(string offerId, string name, decimal price)
+        /// <summary>
+        /// Returnează un utilizator după username (admin sau user).
+        /// </summary>
+        public UDbTable GetUserByUsername(string username)
         {
+            using (var db = new UserContext())
+            {
+                return db.Users.FirstOrDefault(u => u.Username == username);
+            }
         }
 
-        public void ManageUser(string userId, bool isActive)
+        /// <summary>
+        /// Șterge un utilizator după username.
+        /// </summary>
+        public bool DeactivateUser(string username)
         {
+            using (var db = new UserContext())
+            {
+                var user = db.Users.FirstOrDefault(u => u.Username == username);
+                if (user == null)
+                    return false;
+
+                db.Users.Remove(user);
+                db.SaveChanges();
+                return true;
+            }
         }
     }
 }

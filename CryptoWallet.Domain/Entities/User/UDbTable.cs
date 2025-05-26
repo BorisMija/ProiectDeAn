@@ -34,6 +34,6 @@ namespace CryptoWallet.Domain.Entities.User
         public DateTime LastLogin { get; set; }
 
         public URole Level { get; set; }
-       
+        
     }
 }
