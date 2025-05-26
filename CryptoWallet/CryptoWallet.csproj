@@ -310,6 +310,7 @@
     <Compile Include="Controllers\ContactController.cs" />
     <Compile Include="Controllers\RegisterController.cs" />
     <Compile Include="Controllers\RoadmapController.cs" />
+    <Compile Include="Controllers\RadminController.cs" />
     <Compile Include="Controllers\SellCryptoController.cs" />
     <Compile Include="Controllers\ServiceController.cs" />
     <Compile Include="Controllers\WalletController.cs" />
@@ -331,6 +332,7 @@
     <Content Include="Views\Service\Index.cshtml" />
     <Content Include="Views\Roadmap\Index.cshtml" />
     <Content Include="Views\Wallet\Index.cshtml" />
+    <Content Include="Views\Radmin\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

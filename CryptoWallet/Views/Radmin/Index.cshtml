@@ -1,0 +1,30 @@
+@model IEnumerable<CryptoWallet.Domain.Entities.User.UserData>
+
+@{
+    ViewBag.Title = "Radmin";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Radmin</h2>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Level</th>
+            <th>Status</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.Username</td>
+                <td>@user.Email</td>
+                <td>@user.Level</td>
+                <td>@(user.IsBlocked ? "Blocked" : "Active")</td>
+            </tr>
+        }
+    </tbody>
+</table>

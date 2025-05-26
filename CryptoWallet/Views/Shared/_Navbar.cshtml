@@ -26,47 +26,58 @@
                     @*<li class="menu-item text-uppercase">
             <a class="fw-bold" href="@Url.Action("About", "Home")">About</a>
         </li>*@
-                    @* Linkuri vizibile DOAR DUPĂ LOGARE *@
-                    @if (Session["UserToken"] != null)
-                    {
-                        <li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Index", "BuyCrypto")">Buy Crypto</a>
-                        </li>
-                        <li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Index", "SellCrypto")">Sell Crypto</a>
-                        </li>
-                        <li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Index", "Wallet")">Wallet</a>
-                        </li>
+                    @{
+                        var isLoggedIn = Session["UserToken"] != null;
                     }
 
-                    @* Linkuri vizibile ÎNTOTDEAUNA (logat sau nelogat) *@
-                    <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("Index", "Service")">Service</a>
-                    </li>
-                    <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("Index", "Blog")">Blog</a>
-                    </li>
-                    <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("Index", "Contact")">Contact</a>
-                    </li>
-                    <li class="menu-item text-uppercase">
-                        <a class="fw-bold" href="@Url.Action("Index", "Roadmap")">Roadmap</a>
-                    </li>
+                <ul class="navbar-nav">
+                    <ul class="menu">
 
-                    @* Linkuri de LOGIN / LOGOUT *@
-                    @if (Session["UserToken"] != null)
-                    {
-                        <li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Logout", "Auth")">Logout (@Session["Username"])</a>
-                        </li>
-                    }
-                    else
-                    {
-                        <li class="menu-item text-uppercase">
-                            <a class="fw-bold" href="@Url.Action("Index", "Auth")">Login</a>
-                        </li>
-                    }
+                        <ul style="list-style:none; padding:0; margin:0; display:flex; gap:15px;">
+
+                            @if (isLoggedIn)
+                            {
+                                <li>
+                                    <a class="fw-bold text-uppercase" href="@Url.Action("Index", "BuyCrypto")">Buy Crypto</a>
+                                </li>
+                                <li>
+                                    <a class="fw-bold text-uppercase" href="@Url.Action("Index", "SellCrypto")">Sell Crypto</a>
+                                </li>
+                                <li>
+                                    <a class="fw-bold text-uppercase" href="@Url.Action("Index", "Wallet")">Wallet</a>
+                                </li>
+
+                                if (User.IsInRole("Admin") || User.IsInRole("Moderator"))
+                                {
+                                    <li>
+                                        <a class="fw-bold text-uppercase" href="@Url.Action("Index", "RAdmin")">Radmin</a>
+                                    </li>
+                                }
+
+                                <li>
+                                    <a class="fw-bold text-uppercase" href="@Url.Action("Logout", "Auth")">Logout</a>
+                                </li>
+                            }
+                            else
+                            {
+                                <li>
+                                    <a class="fw-bold text-uppercase" href="@Url.Action("Index", "Auth")">Login</a>
+                                </li>
+                            }
+
+                            <li>
+                                <a class="fw-bold text-uppercase" href="@Url.Action("Index", "Service")">Service</a>
+                            </li>
+                            <li>
+                                <a class="fw-bold text-uppercase" href="@Url.Action("Index", "Blog")">Blog</a>
+                            </li>
+                            <li>
+                                <a class="fw-bold text-uppercase" href="@Url.Action("Index", "Contact")">Contact</a>
+                            </li>
+                            <li>
+                                <a class="fw-bold text-uppercase" href="@Url.Action("Index", "Roadmap")">Roadmap</a>
+                            </li>
+                        </ul>
                     @*<li class="menu-item text-uppercase">
             <a class="fw-bold" href="@Url.Action("Services", "Home")">Service</a>
         </li>
