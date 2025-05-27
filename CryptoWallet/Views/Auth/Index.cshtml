@@ -1,7 +1,7 @@
 ﻿﻿
 @{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Auth";
+     Layout = "~/Views/Shared/_Layout.cshtml";
+     ViewBag.Title = "Auth";
 }
 
 @using System.Web.Optimization;
@@ -9,18 +9,24 @@
 
 <h2>Log in</h2>
 
-@using (Html.BeginForm("Auth", "Auth", FormMethod.Post))
-{
-    <div class="container">
+<div class="container">
+     <h2 class="text-center text-linear">Log in</h2>
 
-        @Html.LabelFor(u => u.Username)
+     @using (Html.BeginForm("Auth", "Auth", FormMethod.Post))
+     {
+          @Html.LabelFor(u => u.Username)
+          @Html.TextBoxFor(u => u.Username, new { @class = "form-control", placeholder = "Enter username", required = "required" })
 
-        @Html.TextBoxFor(u => u.Username)
+          @Html.LabelFor(u => u.Password)
+          @Html.PasswordFor(u => u.Password, new
+          {
+              @class = "form-control",
+              placeholder = "Enter password",
+              required = "required",
+              pattern = ".{6,}",
+              title = "Password must be at least 6 characters"
+          })
 
-        @Html.LabelFor(u => u.Password)
-
-        @Html.TextBoxFor(u => u.Password)
-
-        <button type="submit">Login</button>
-    </div>
-}
+          <button class="btn btn-linear btn-medium align-self-center btn-rounded text-uppercase register-btn mt-md-0 mt-3" type="submit">Login</button>
+     }
+</div>

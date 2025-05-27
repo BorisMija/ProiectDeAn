@@ -1414,3 +1414,16 @@ iconify-icon.services{
   font-size: 5rem;
   color: var(--primary-color);
 }
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+     background-color: #fff !important;
+     border: 1px solid #ccc;
+     color: #151515;
+}
+
+input:focus {
+     background-color: #f7f7f7 !important;
+     border-color: #44E5AE;
+}
+

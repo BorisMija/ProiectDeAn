@@ -1,30 +1,48 @@
-﻿
-@{
-    Layout = "~/Views/Shared/_Layout.cshtml";
-    ViewBag.Title = "Register";
+﻿@{
+     Layout = "~/Views/Shared/_Layout.cshtml";
+     ViewBag.Title = "Register";
 }
 
-@using System.Web.Optimization;
 @model CryptoWallet.Models.Reg.UserRegData
 
-<h2>Register</h2>
+<div class="container padding-medium margin-medium border-rounded-10" style="max-width: 500px;">
+     <h2 class="text-center text-linear">Register</h2>
 
-@using (Html.BeginForm("Reg", "Register", FormMethod.Post))
-{
-    <div class="container">
+     @using (Html.BeginForm("Reg", "Register", FormMethod.Post))
+     {
+          <div class="form-group">
+               @Html.LabelFor(u => u.Username, new { @class = "text-capitalize" })
+               @Html.TextBoxFor(u => u.Username, new
+               {
+                   @class = "u-full-width",
+                   placeholder = "Enter username",
+                   required = "required"
+               })
+          </div>
 
-        @Html.LabelFor(u => u.Username)
+          <div class="form-group">
+               @Html.LabelFor(u => u.Email, new { @class = "text-capitalize" })
+               @Html.TextBoxFor(u => u.Email, new
+               {
+                   @type = "email",
+                   @class = "u-full-width",
+                   placeholder = "you@example.com",
+                   required = "required"
+               })
+          </div>
 
-        @Html.TextBoxFor(u => u.Username)
+          <div class="form-group">
+               @Html.LabelFor(u => u.Password, new { @class = "text-capitalize" })
+               @Html.PasswordFor(u => u.Password, new
+               {
+                   @class = "u-full-width",
+                   placeholder = "Enter password",
+                   required = "required",
+                   pattern = ".{6,}",
+                   title = "Password must be at least 6 characters"
+               })
+          </div>
 
-        @Html.LabelFor(u => u.Password)
-
-        @Html.TextBoxFor(u => u.Password)
-
-        @Html.LabelFor(u => u.Email)
-
-        @Html.TextBoxFor(u => u.Email)
-
-        <button type="submit">Register</button>
-    </div>
-}
+          <button type="submit" class="btn btn-full btn-linear">Register</button>
+     }
+</div>
