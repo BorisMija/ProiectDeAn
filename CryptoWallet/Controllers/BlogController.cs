@@ -11,7 +11,7 @@ namespace CryptoWallet.Controllers
 
         public ActionResult Blog()
         {
-            // Poți trimite date către view aici, dacă vrei
+            
             return View();
         }
     }

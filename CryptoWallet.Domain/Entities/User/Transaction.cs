@@ -2,7 +2,7 @@
 
 
 
-namespace CryptoWallet.Models
+namespace CryptoWallet.Domain.Entities.User
 {
     public class Transaction
     {

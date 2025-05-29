@@ -1,6 +1,6 @@
 ﻿
 using CryptoWallet.Domain.Entities.Session;
-using CryptoWallet.Models;
+using CryptoWallet.Domain.Entities.User;
 using System.Data.Entity;
 
 

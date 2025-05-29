@@ -3,8 +3,8 @@ using System.Linq;
 using System.Threading.Tasks;
 using BL.Interfaces;
 using CryptoWallet.BusinessLogic.DBModel;
-using CryptoWallet.Models;
-using CryptoWallet.ViewModels;
+using CryptoWallet. Domain.Entities.User;
+
 
 namespace BL.Services
 {
@@ -24,7 +24,7 @@ namespace BL.Services
 
         public async Task AddOrUpdateCurrencyAsync(string userId, string symbol, decimal amount)
         {
-            // Poți implementa o metodă reală care să obțină valoarea USD
+          
             decimal dummyUsdValue = amount * 1000; // Exemplu fix, înlocuiește cu API real
 
             // Creează tranzacția nouă

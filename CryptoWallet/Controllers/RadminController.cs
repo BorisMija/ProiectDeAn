@@ -4,7 +4,7 @@ using System.Web.Mvc;
 
 namespace CryptoWallet.Controllers
 {
-    public class RAdminController : Controller
+    public class RdminController : Controller
     {
         private const int ModeratorLevel = 238;
 

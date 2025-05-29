@@ -1,7 +1,7 @@
-﻿using CryptoWallet.Models;
+﻿using CryptoWallet.Domain.Entities.User;
 using System.Collections.Generic;
 
-namespace CryptoWallet.ViewModels
+namespace CryptoWallet.Domain.Entities.User
 {
     public class WalletViewModel
     {

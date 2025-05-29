@@ -13,6 +13,7 @@ using Microsoft.AspNetCore.Http;
 using CryptoWallet.Domain.Entities.User.Reg;
 using CryptoWallet.Domain.User.Reg;
 using CryptoWallet.Domain.User.Auth;
+using System.Threading.Tasks;
 
 
 
@@ -63,7 +64,7 @@ namespace CryptoWallet.BusinessLogic.Core
                 return new UserRegDataResp()
                 {
                     Status = false,
-                    Error = "This Username a exists"
+                    Error = "This Username exists"
                 };
             }
 
@@ -87,5 +88,44 @@ namespace CryptoWallet.BusinessLogic.Core
 
             return new UserRegDataResp() { Status = true };
         }
-    }
+        public WalletViewModel GetWalletByUserId(string userId)
+          {
+               using (var db = new UserContext())
+               {
+                    var walletCurrencies = db.WalletCurrencies.Where(c => c.UserId == userId).ToList();
+                    var transactions = db.Transactions.Where(t => t.UserId == userId).ToList();
+
+                    return new WalletViewModel
+                    {
+                         WalletCurrencies = walletCurrencies,
+                         Transactions = transactions
+                    };
+               }
+          }
+          public async Task UpdateWalletAsync(string userId, WalletViewModel wallet)
+          {
+               using (var db = new UserContext())
+               {
+                    foreach (var currency in wallet.WalletCurrencies)
+                    {
+                         var existingCurrency = db.WalletCurrencies.FirstOrDefault(c => c.Id == currency.Id);
+                         if (existingCurrency != null)
+                         {
+                              existingCurrency.Amount = currency.Amount;
+                         }
+                    }
+                    await db.SaveChangesAsync();
+               }
+          }
+
+          public async Task LogTransactionAsync(Transaction transaction)
+          {
+               using (var db = new UserContext())
+               {
+                    db.Transactions.Add(transaction);
+                    await db.SaveChangesAsync();
+               }
+          }
+     }
+
 }

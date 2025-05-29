@@ -9,6 +9,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace CryptoWallet.BusinessLogic.BLogic
 {
@@ -35,5 +36,26 @@ namespace CryptoWallet.BusinessLogic.BLogic
         {
             return SetRegisterUserAction(local);
         }
-    }
+
+          //public ActionResult Logout()
+          // {
+          //      return LogOutUser();
+          // }
+          public object GetWalletByUserId(string userId)
+          {
+               // Explicitly implement the interface method to match the return type
+               return base.GetWalletByUserId(userId);
+          }
+
+          public Task UpdateWalletAsync(string userId, WalletViewModel wallet)
+          {
+               return base.UpdateWalletAsync(userId, wallet);
+          }
+
+          public Task LogTransactionAsync(Transaction transaction)
+          {
+               return base.LogTransactionAsync(transaction);
+          }
+
+     }
 }

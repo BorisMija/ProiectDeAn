@@ -1,5 +1,4 @@
-﻿using CryptoWallet.Models;
-using CryptoWallet.ViewModels;
+﻿using CryptoWallet.Domain.Entities.User;
 using System.Threading.Tasks;
 
 namespace BL.Interfaces

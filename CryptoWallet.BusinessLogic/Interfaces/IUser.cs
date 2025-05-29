@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Web.Mvc;
 
 namespace CryptoWallet.BusinessLogic.Interfaces
 {
@@ -14,6 +15,16 @@ namespace CryptoWallet.BusinessLogic.Interfaces
     {
         string AuthenticateUser(UserAuthAction auth);
         UDbTable GetUserByUsername(string username);
-        UserRegDataResp RegisterUserAction(RegDataActionDTO local);
-    }
+          object GetWalletByUserId(string userId);
+          UserRegDataResp RegisterUserAction(RegDataActionDTO local);
+
+          Task UpdateWalletAsync(string userId, WalletViewModel wallet);
+          Task LogTransactionAsync(Transaction transaction);
+     
+
+
+          //ActionResult Logout();
+
+
+     }
 }

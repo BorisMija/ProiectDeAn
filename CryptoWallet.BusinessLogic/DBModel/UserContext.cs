@@ -1,12 +1,7 @@
 ﻿using System.Data.Entity;
 using CryptoWallet.BusinessLogic.DBModel;
 using CryptoWallet.Domain.Entities.User;
-using CryptoWallet.Models;
-
-
-
-
-
+using CryptoWallet.Domain.Entities.User;
 
 
 namespace CryptoWallet.BusinessLogic.DBModel

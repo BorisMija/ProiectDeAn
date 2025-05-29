@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using CryptoWallet.BusinessLogic.DBModel;  // adaptează namespace dacă e cazul
-using CryptoWallet.Models;
+using CryptoWallet.Domain.Entities.User;
 
 namespace CryptoWallet.BusinessLogic.Core
 {
