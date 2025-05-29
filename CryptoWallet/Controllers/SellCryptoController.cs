@@ -5,6 +5,8 @@ using CryptoWallet.BusinessLogic.Interfaces;
 using CryptoWallet.Domain.Entities.User;
 using Microsoft.AspNet.Identity;
 using System.Linq;
+using BL.Interfaces;
+using CryptoWallet.Models.Crypto;
 
 namespace CryptoWallet.Controllers
 {
@@ -74,10 +76,60 @@ public class SellCryptoController : Controller
 
 
           //}
+          private readonly IWalletService _walletService;
 
+          public SellCryptoController()
+          {
+               var bl = new BusinessLogic.BussinesLogic();
+               _walletService = bl.GetWalletBL();
+
+          }
+
+
+          [HttpGet]
           public ActionResult Index()
           {
                return View();
+          }
+
+          [HttpPost]
+          [ValidateAntiForgeryToken]
+          public ActionResult Index(SellCryptoModel sellCryptoModel)
+          {
+               if (ModelState.IsValid)
+               {
+                    var data = new SellCrypto
+                    {
+                         CryptoSymbol = sellCryptoModel.CryptoSymbol,
+                         Amount = sellCryptoModel.Amount,
+                         Rate = sellCryptoModel.Rate,
+                         UserId = 1000
+                    };
+
+                    try
+                    {
+                         var result = _walletService.SellCryptoLogic(data);
+
+                         if (result)
+                         {
+                              TempData["SuccessMessage"] = "Creat cu succes.";
+                         }
+                         else
+                         {
+                              TempData["ErrorMessage"] = "Nu este adaugat. Eroare";
+                         }
+                    }
+                    catch
+                    (Exception ex)
+                    {
+                         // Handle exception (e.g., log it)
+                         TempData["ErrorMessage"] = "Nu este adaugat. Eroare";
+                         return View(sellCryptoModel);
+                    }
+                    return RedirectToAction("Index");
+
+               }
+               return View(sellCryptoModel);
           }
      }
 }

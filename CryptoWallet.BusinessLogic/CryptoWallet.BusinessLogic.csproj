@@ -171,6 +171,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BLogic\UserBL.cs" />
+    <Compile Include="BLogic\WalletBL.cs" />
     <Compile Include="BussinesLogic.cs" />
     <Compile Include="Core\AdminApi.cs" />
     <Compile Include="Core\UserApi.cs" />

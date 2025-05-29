@@ -46,6 +46,27 @@ namespace CryptoWallet.BusinessLogic.Core
             }
         }
 
+          public bool SellCrypto(SellCrypto model)
+          {
+               using (var db = new UserContext())
+               {
+                    var transaction = new SellCrypto
+                    {
+                         CryptoSymbol = model.CryptoSymbol,
+                         Amount = model.Amount,
+                         Rate = model.Rate,
+                         UserId = model.UserId,
+                         Date = DateTime.Now
+                    };
+
+                    db.SellCryptos.Add(transaction);
+                    db.SaveChanges();
+                    return true;
+               }    
+
+               return false;
+          }
+
         public decimal GetWalletBalance(string userId, string currencySymbol)
         {
             using (var db = new UserContext())

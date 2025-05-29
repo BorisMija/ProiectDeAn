@@ -316,6 +316,8 @@
     <Compile Include="Controllers\WalletController.cs" />
     <Compile Include="Global.asax.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="LogicHelper\Mappers\CryptoMapper.cs" />
+    <Compile Include="Models\Crypto\SellCryptoModel.cs" />
     <Compile Include="Models\Reg\UserRagData.cs" />
     <Compile Include="Models\Auth\UserAuthData.cs" />
     <Compile Include="Models\UserData\UserData.cs" />

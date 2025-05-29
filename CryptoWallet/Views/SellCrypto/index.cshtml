@@ -1,37 +1,62 @@
-@model CryptoWallet.Domain.Entities.User.WalletViewModel
+﻿@model CryptoWallet.Models.Crypto.SellCryptoModel
+
+@{
+     ViewBag.Title = "Sell Crypto";
+}
+
+@if (TempData["SuccessMessage"] != null)
+{
+     <div class="alert alert-success">@TempData["SuccessMessage"]</div>
+}
+@if (TempData["ErrorMessage"] != null)
+{
+     <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
+}
+
+@if (!ViewData.ModelState.IsValid)
+{
+     <div class="alert alert-danger">
+          <ul>
+               @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+               {
+                    <li>@error.ErrorMessage</li>
+               }
+          </ul>
+     </div>
+}
 
 <div class="section-title text-center">
      <div class="breadcrumbs">
-          <span class="item"><a href="index.html">Home /</a></span>
+          <span class="item"><a href="/">Home /</a></span>
           <span class="item">Sell Crypto</span>
      </div>
      <h2>Sell your Crypto</h2>
 </div>
 
 <div class="container">
-     <form asp-action="Sell" method="post">
+     <form asp-action="Index" method="post">
           @Html.AntiForgeryToken()
           <div class="product-item border-set-bold border-rounded-10 py-5 px-4">
                <div class="row align-items-center">
                     <div class="col-md-4">
-                         <p class="mb-3"><strong>Choose Crypto</strong></p>
-                         <p class="mb-3"><strong>Choose Amount</strong></p>
-                         <p class="mb-3"><strong>Choose Rate</strong></p>
+                         <p class="mb-3"><strong>Crypto Symbol</strong></p>
+                         <p class="mb-3"><strong>Amount</strong></p>
+                         <p class="mb-3"><strong>Rate</strong></p>
+                         <p class="mb-3"><strong>Wallet Address</strong></p>
                     </div>
 
                     <div class="col-md-4">
-                         <select name="cryptoSymbol" class="form-control mb-4" style="width: 75%; color: #44e5ae; border: 2px solid white;">
-                              @foreach (var currency in Model.WalletCurrencies)
-                              {
-                                   <option value="@currency.Symbol">@currency.Name (@currency.Symbol)</option>
-                              }
-                         </select>
-                         <input type="number" name="amount" class="form-control text-white mb-4" placeholder="Enter amount" style="width: 75%; color: #44e5ae; border: 2px solid white;">
-                         <input type="number" name="rate" class="form-control text-white" placeholder="Enter rate" style="width: 75%; color: #44e5ae; border: 2px solid white;">
+                         <input asp-for="CryptoSymbol" name="CryptoSymbol" class="form-control text-white mb-4" placeholder="e.g. BTC, ETH" style="width: 75%; color: #44e5ae; border: 2px solid white;" />
+                         <span asp-validation-for="CryptoSymbol" class="text-danger"></span>
+
+                         <input asp-for="Amount" name="Amount" class="form-control text-white mb-4" placeholder="Enter amount" style="width: 75%; color: #44e5ae; border: 2px solid white;" />
+                         <span asp-validation-for="Amount" class="text-danger"></span>
+
+                         <input asp-for="Rate" name="Rate" class="form-control text-white mb-4" placeholder="Enter rate" style="width: 75%; color: #44e5ae; border: 2px solid white;" />
+                         <span asp-validation-for="Rate" class="text-danger"></span>
                     </div>
 
                     <div class="col-md-4">
-                         <p id="cryptoAmount" class="mb-3"><strong>You have @Model.WalletCurrencies.FirstOrDefault()?.Amount BTC</strong></p>
                          <p id="recommendedPrice"><strong>Recommended price: 12321</strong></p>
                     </div>
                </div>

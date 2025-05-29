@@ -111,6 +111,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Entities\Session\SessionDbTable.cs" />
+    <Compile Include="Entities\User\SellCrypto.cs" />
     <Compile Include="Entities\User\UserData.cs" />
     <Compile Include="Entities\User\WalletCurrency.cs" />
     <Compile Include="Entities\User\Transaction.cs" />

@@ -16,6 +16,8 @@ namespace CryptoWallet.BusinessLogic.DBModel
         public virtual DbSet<UDbTable> Users { get; set; }
         public DbSet<WalletCurrency> WalletCurrencies { get; set; }
         public DbSet<Transaction> Transactions { get; set; }
+        public DbSet<SellCrypto> SellCryptos { get; set; }
 
-    }
+
+     }
 }

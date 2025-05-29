@@ -1,4 +1,5 @@
-﻿using CryptoWallet.BusinessLogic.BLogic;
+﻿using BL.Interfaces;
+using CryptoWallet.BusinessLogic.BLogic;
 using CryptoWallet.BusinessLogic.Core;
 using CryptoWallet.BusinessLogic.Interfaces;
 using System;
@@ -16,5 +17,10 @@ namespace CryptoWallet.BusinessLogic
         {
             return new UserBL();
         }
+
+          public IWalletService GetWalletBL()
+          {
+               return new WalletBL();
+          }
     }
 }

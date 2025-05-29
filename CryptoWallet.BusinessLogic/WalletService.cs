@@ -70,5 +70,10 @@ namespace BL.Services
         {
             throw new NotImplementedException();
         }
-    }
+
+          public bool SellCryptoLogic(SellCrypto sell)
+          {
+               throw new NotImplementedException();
+          }
+     }
 }

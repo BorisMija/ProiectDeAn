@@ -9,6 +9,7 @@ namespace BL.Interfaces
         Task AddCurrencyAsync(WalletCurrency currency);
         Task AddTransactionAsync(Transaction transaction);
         Task AddOrUpdateCurrencyAsync(string userId, string symbol, decimal amount);
+         bool SellCryptoLogic(SellCrypto sellCrypto);
 
     }
 }
