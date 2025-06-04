@@ -323,6 +323,9 @@
     <Compile Include="Models\Reg\UserRagData.cs" />
     <Compile Include="Models\Auth\UserAuthData.cs" />
     <Compile Include="Models\UserData\UserData.cs" />
+    <Compile Include="Models\Wallet\WalletAddModel.cs" />
+    <Compile Include="Models\Wallet\WalletCurrencyViewModel.cs" />
+    <Compile Include="Models\Wallet\WalletViewModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

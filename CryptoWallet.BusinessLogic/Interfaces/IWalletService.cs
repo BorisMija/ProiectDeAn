@@ -13,5 +13,9 @@ namespace BL.Interfaces
          bool SellCryptoLogic(SellCrypto sellCrypto);
         
           List<SellCrypto> GetSellCryptoLogic();
+          bool BuyCryptoLogic(int offerId, string userName);
+
+          //WalletViewModel GetWalletData(string userName);
+          //Task AddOrUpdateCurrencyAsync(string userName, string symbol, decimal amount);
      }
 }

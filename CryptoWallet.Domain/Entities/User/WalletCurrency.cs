@@ -3,29 +3,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CryptoWallet.Domain.Entities.User
 {
-    public class WalletCurrency
-    {
-        [Key]
-        public int Id { get; set; } 
+     public class WalletCurrency
+     {
+          [Key]
+          [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+          public int Id { get; set; }
 
-        public string Name { get; set; }
+          [Required]
+          public string UserName { get; set; }
 
-        public string Username { get; set; }
+          [Required]
+          public string Symbol { get; set; }
 
-        [Required]
-        [StringLength(10)]
-        public string Symbol { get; set; }
+          [Required]
+          public decimal Amount { get; set; }
 
-      
-        public string CurrencyCode { get; set; }
-
-        [Required]
-        [Range(0, double.MaxValue)]
-        public decimal Amount { get; set; }
-
-        [Required]
-        public string UserId { get; set; }
-
-   
-    }
+          public string Name { get; set; }
+     }
 }

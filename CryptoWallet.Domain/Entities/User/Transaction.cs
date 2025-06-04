@@ -18,7 +18,7 @@ namespace CryptoWallet.Domain.Entities.User
         public decimal ValueInUSD { get; set; }
 
         public DateTime Date { get; set; }
-        public string UserId { get; set; }
+        public string UserName { get; set; }
 
         
     }

@@ -91,8 +91,8 @@ namespace CryptoWallet.BusinessLogic.Core
           {
                using (var db = new UserContext())
                {
-                    var walletCurrencies = db.WalletCurrencies.Where(c => c.UserId == userId).ToList();
-                    var transactions = db.Transactions.Where(t => t.UserId == userId).ToList();
+                    var walletCurrencies = db.WalletCurrencies.Where(c => c.UserName == userId).ToList();
+                    var transactions = db.Transactions.Where(t => t.UserName == userId).ToList();
 
                     return new WalletViewModel
                     {

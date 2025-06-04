@@ -25,7 +25,6 @@
      </div>
 }
 
-
 <div class="section-title text-center">
      <div class="breadcrumbs">
           <span class="item"><a href="/">Home /</a></span>
@@ -33,7 +32,6 @@
      </div>
      <h2>Sell your Crypto</h2>
 </div>
-
 
 <div class="container">
      <form asp-action="Index" method="post">
@@ -44,12 +42,12 @@
                          <p class="mb-3"><strong>Crypto Symbol</strong></p>
                          <p class="mb-3"><strong>Amount</strong></p>
                          <p class="mb-3"><strong>Rate</strong></p>
-
                     </div>
 
                     <div class="col-md-4">
-                         <select asp-for="CryptoSymbol" name="CryptoSymbol" class="form-control text-white mb-4"
-                                 style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;">
+                         <select asp-for="CryptoSymbol" name="CryptoSymbol" id="CryptoSymbol" class="form-control text-white mb-4"
+                                 style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;"
+                                 onchange="fetchRecommendedPrice()">
                               <option value="">Select a cryptocurrency</option>
                               <option value="BTC">BTC</option>
                               <option value="ETH">ETH</option>
@@ -64,10 +62,9 @@
                                 style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;"
                                 onfocus="this.style.setProperty('background-color', '#2a2a2a', 'important'); this.style.setProperty('border-color', '#44e5ae', 'important');"
                                 onblur="this.style.setProperty('background-color', '#1a1a1a', 'important'); this.style.setProperty('border-color', 'white', 'important');" />
-
                          <span asp-validation-for="Amount" class="text-danger"></span>
 
-                         <input asp-for="Rate" name="Rate" class="form-control text-white mb-4"
+                         <input asp-for="Rate" id="RateInput" name="Rate" class="form-control text-white mb-4"
                                 placeholder="Enter rate"
                                 style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;"
                                 onfocus="this.style.setProperty('background-color', '#2a2a2a', 'important'); this.style.setProperty('border-color', '#44e5ae', 'important');"
@@ -75,20 +72,71 @@
                          <span asp-validation-for="Rate" class="text-danger"></span>
                     </div>
 
-         
-
                     <div class="col-md-4">
-                         <p id="recommendedPrice"><strong>Recommended price: 12321</strong></p>
+                         <div class="d-flex align-items-center">
+                              <p id="recommendedPrice" class="me-3">
+                                   <strong>Recommended price for <span id="priceSymbol">?</span>: <span id="priceValue">-</span> USD</strong>
+                              </p>
+                              <button type="button" id="usePriceBtn" class="btn btn-sm btn-outline-success" onclick="useRecommendedPrice()">Use</button>
+                         </div>
                     </div>
                </div>
 
                <div class="row mt-4">
                     <div class="col-12 d-flex justify-content-center">
                          <input type="hidden" name="Username" value="@Session["UserName"]" />
-
                          <button type="submit" class="btn btn-outline-accent btn-medium btn-rounded text-uppercase">Create Listing</button>
                     </div>
                </div>
           </div>
      </form>
 </div>
+
+<script>
+    let latestPrice = null;
+
+    async function fetchRecommendedPrice() {
+        const symbol = document.getElementById("CryptoSymbol").value;
+        const lowerSymbol = symbol.toLowerCase();
+        const priceSymbolSpan = document.getElementById("priceSymbol");
+        const priceValueSpan = document.getElementById("priceValue");
+
+        priceSymbolSpan.innerText = symbol || "?";
+        priceValueSpan.innerText = "Loading...";
+
+        if (!symbol) {
+            latestPrice = null;
+            return;
+        }
+
+        const url = "https://cdn.jsdelivr.net/npm/" + @Html.Raw("\"@fawazahmed0\"") + "/currency-api@latest/v1/currencies/" + lowerSymbol + ".json";
+
+        try {
+            const response = await fetch(url);
+            const data = await response.json();
+
+            const price = data[lowerSymbol]?.usd;
+            if (price) {
+                latestPrice = price;
+                priceValueSpan.innerText = price;
+            } else {
+                latestPrice = null;
+                priceValueSpan.innerText = "Not available";
+            }
+        } catch (err) {
+            console.error("Error fetching price:", err);
+            latestPrice = null;
+            priceValueSpan.innerText = "Error";
+        }
+    }
+
+    function useRecommendedPrice() {
+        if (latestPrice !== null) {
+            document.getElementById("RateInput").value = latestPrice;
+        }
+    }
+
+    document.addEventListener("DOMContentLoaded", function () {
+        fetchRecommendedPrice();
+    });
+</script>

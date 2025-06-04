@@ -41,5 +41,10 @@ namespace CryptoWallet.BusinessLogic.BLogic
           {
                return GetCryptosForSale();
           }
+          public bool BuyCryptoLogic(int offerId, string userId)
+          {
+               return BuyCryptoOffer(offerId, userId);
+          }
+
      }
 }

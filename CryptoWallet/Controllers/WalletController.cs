@@ -1,58 +1,48 @@
-﻿using System;
-using System.Threading.Tasks;
-using System.Web.Mvc;
-using CryptoWallet.Domain.Entities.User;
+﻿using System.Web.Mvc;
 using BL.Interfaces;
-using Microsoft.AspNet.Identity;
+using CryptoWallet.Domain.Entities.User;
 
 namespace CryptoWallet.Controllers
 {
-   
-[Authorize]
      public class WalletController : Controller
      {
           private readonly IWalletService _walletService;
-          private string CurrentUserId => User.Identity.GetUserId();
 
-          public WalletController(IWalletService walletService)
+          public WalletController()
           {
-               _walletService = walletService ?? throw new ArgumentNullException(nameof(walletService));
+               var bl = new BusinessLogic.BussinesLogic();
+               _walletService = bl.GetWalletBL();
           }
 
+          [HttpGet]
           public ActionResult Index()
-          {
-               var model = _walletService.GetWalletData(CurrentUserId);
-               return View(model);
+         {
+          //     var username = Session["UserName"] as string;
+          //     if (string.IsNullOrEmpty(username))
+          //          return RedirectToAction("Login", "Auth");
+
+          //     var wallet = _walletService.GetWalletData(username);
+               return View();
           }
 
-          [HttpPost]
-          [ValidateAntiForgeryToken]
-          public async Task<ActionResult> AddCurrency(WalletCurrency currency)
-          {
-               if (!ModelState.IsValid)
-               {
-                    var model = _walletService.GetWalletData(CurrentUserId);
-                    return View("Index", model);
-               }
+          //[HttpPost]
+          //[ValidateAntiForgeryToken]
+          //public ActionResult Index(WalletCurrency model)
+          //{
+          //     var username = Session["UserName"] as string;
+          //     if (string.IsNullOrEmpty(username))
+          //          return RedirectToAction("Login", "Auth");
 
-               currency.UserId = CurrentUserId;
-               await _walletService.AddCurrencyAsync(currency);
-               return RedirectToAction("Index");
-          }
+          //     if (ModelState.IsValid)
+          //     {
+          //          _walletService.AddOrUpdateCurrencyAsync(username, model.Symbol, model.Amount).Wait();
+          //          TempData["SuccessMessage"] = "Added successfully.";
+          //          return RedirectToAction("Index");
+          //     }
 
-          [HttpPost]
-          [ValidateAntiForgeryToken]
-          public async Task<ActionResult> AddTransaction(Transaction transaction)
-          {
-               if (!ModelState.IsValid)
-               {
-                    var model = _walletService.GetWalletData(CurrentUserId);
-                    return View("Index", model);
-               }
-
-               transaction.UserId = CurrentUserId;
-               await _walletService.AddTransactionAsync(transaction);
-               return RedirectToAction("Index");
-          }
+          //     TempData["ErrorMessage"] = "Invalid input.";
+          //     var wallet = _walletService.GetWalletData(username);
+          //     return View(wallet);
+          //}
      }
 }

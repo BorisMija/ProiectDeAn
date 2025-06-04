@@ -129,6 +129,7 @@
     <Compile Include="User\Auth\UserAuthResp.cs" />
     <Compile Include="User\Reg\RegDataActionDTO.cs" />
     <Compile Include="User\Reg\UserRegDataResp.cs" />
+    <Compile Include="User\Wallet\WalletCurrency.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CryptoWallet.Helpers\CryptoWallet.Helpers.csproj">

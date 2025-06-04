@@ -1,32 +1,60 @@
-﻿@{
-    ViewBag.Title = "Buy Crypto";
+﻿@model List<CryptoWallet.Domain.Entities.User.SellCrypto>
+
+@{
+     ViewBag.Title = "Buy Crypto";
 }
 
-<h2>Buy Crypto</h2>
-
-@using (Html.BeginForm("Index", "BuyCrypto", FormMethod.Post))
+@if (TempData["SuccessMessage"] != null)
 {
-    @Html.AntiForgeryToken()
-
-    <div>
-        <label for="symbol">Select currency:</label>
-        @Html.DropDownList("symbol", (IEnumerable<SelectListItem>)ViewBag.Currencies, "Choose currency")
-    </div>
-
-    <div>
-        <label for="amount">Amount:</label>
-        <input type="number" step="0.00000001" name="amount" id="amount" value="0" min="0" required />
-    </div>
-
-    <button type="submit">Buy</button>
+     <div class="alert alert-success">@TempData["SuccessMessage"]</div>
 }
-
-@if (!ViewData.ModelState.IsValid)
+@if (TempData["ErrorMessage"] != null)
 {
-    <div style="color:red;">
-        @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
-        {
-            <p>@error.ErrorMessage</p>
-        }
-    </div>
+     <div class="alert alert-danger">@TempData["ErrorMessage"]</div>
 }
+
+<div class="section-title text-center">
+     <div class="breadcrumbs">
+          <span class="item"><a href="/">Home /</a></span>
+          <span class="item">Buy Crypto</span>
+     </div>
+     <h2>Available Offers</h2>
+</div>
+
+<div class="container">
+     @if (Model != null && Model.Any())
+     {
+          foreach (var offer in Model)
+          {
+               <div class="product-item border-set-bold border-rounded-10 py-4 px-4 mb-4">
+                    <div class="row align-items-center">
+                         <div class="col-md-3">
+                              <p><strong>Crypto:</strong> @offer.CryptoSymbol</p>
+                              <p><strong>Amount:</strong> @offer.Amount</p>
+                              <p><strong>Rate:</strong> @offer.Rate</p>
+                              <p><strong>Seller:</strong> @offer.UserName</p>
+                              <p><strong>Date:</strong> @offer.Date.ToShortDateString()</p>
+                         </div>
+
+                         <div class="col-md-6">
+                              <p><strong>Total:</strong> @(offer.Amount * offer.Rate)</p>
+                         </div>
+
+                         <div class="col-md-3 text-end">
+                              <form asp-action="Buy" asp-controller="BuyCrypto" method="post">
+                                   @Html.AntiForgeryToken()
+                                   <input type="hidden" name="offerId" value="@offer.Id" />
+                                   <button type="submit" class="btn btn-outline-success btn-medium btn-rounded text-uppercase">
+                                        Buy Now
+                                   </button>
+                              </form>
+                         </div>
+                    </div>
+               </div>
+          }
+     }
+     else
+     {
+          <div class="alert alert-info text-center">No available offers at the moment.</div>
+     }
+</div>
