@@ -242,3 +242,6 @@ C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWa
 C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWa.8D7A2934.Up2Date
 C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWallet.dll
 C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\obj\Debug\CryptoWallet.pdb
+C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\bin\CryptoWallet.Helpers.dll
+C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\bin\CryptoWallet.Helpers.pdb
+C:\Users\Yamato\Desktop\Anul 2 sem 2\ProiectDeAn\CryptoWallet\bin\CryptoWallet.Helpers.dll.config

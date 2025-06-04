@@ -23,27 +23,15 @@ namespace CryptoWallet.BusinessLogic.BLogic
         {
             return GetUserByUsernameAction(username);
         }
-        //public int GetUserIdBySessionKey(string sessionKey)
-        //{
-        //     return GetUserIdBySessionKeyAction(sessionKey);
-        //}
 
-        //public bool IsSessionValid(string key)
-        //{
-        //     return IsSessionValidAction(key);
-        //}
         public UserRegDataResp RegisterUserAction(RegDataActionDTO local)
         {
             return SetRegisterUserAction(local);
         }
 
-          //public ActionResult Logout()
-          // {
-          //      return LogOutUser();
-          // }
           public object GetWalletByUserId(string userId)
           {
-               // Explicitly implement the interface method to match the return type
+              
                return base.GetWalletByUserId(userId);
           }
 

@@ -1,4 +1,5 @@
 ﻿using CryptoWallet.Domain.Entities.User;
+using System.Collections.Generic;
 using System.Threading.Tasks;
 
 namespace BL.Interfaces
@@ -10,6 +11,7 @@ namespace BL.Interfaces
         Task AddTransactionAsync(Transaction transaction);
         Task AddOrUpdateCurrencyAsync(string userId, string symbol, decimal amount);
          bool SellCryptoLogic(SellCrypto sellCrypto);
-
-    }
+        
+          List<SellCrypto> GetSellCryptoLogic();
+     }
 }

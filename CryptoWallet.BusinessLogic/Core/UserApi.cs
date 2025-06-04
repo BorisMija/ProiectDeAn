@@ -7,13 +7,12 @@ using CryptoWallet.Domain.Entities.Session;
 using CryptoWallet.Domain.Entities.User;
 using CryptoWallet.Domain.Entities.User.UserActionResponse;
 using CryptoWallet.Domain.Enums;
-using CryptoWallet.Helpers.RegFlow;
-using CryptoWallet.BusinessLogic.DBModel;
 using Microsoft.AspNetCore.Http;
 using CryptoWallet.Domain.Entities.User.Reg;
 using CryptoWallet.Domain.User.Reg;
 using CryptoWallet.Domain.User.Auth;
 using System.Threading.Tasks;
+using CryptoWallet.Helpers.Session;
 
 
 
@@ -49,7 +48,7 @@ namespace CryptoWallet.BusinessLogic.Core
                 return db.Users.FirstOrDefault(u => u.Username == username);
             }
         }
-        internal UserRegDataResp SetRegisterUserAction(RegDataActionDTO local)
+        public UserRegDataResp SetRegisterUserAction(RegDataActionDTO local)
         {
 
             UDbTable user;
@@ -126,6 +125,98 @@ namespace CryptoWallet.BusinessLogic.Core
                     await db.SaveChangesAsync();
                }
           }
-     }
+     
+       public UserCookieResponse GenerateCookieByUserAction(int userId)
+          {
+               var cookieString = new System.Web.HttpCookie("X-KEY")
+               {
+                    Value = CookieGenerator.Create(userId + System.Web.HttpContext.Current.Request.UserHostAddress)
+               };
 
+
+               SessionDbTable sessionDb;
+
+               using (var db = new SessionContext())
+               {
+                    sessionDb = db.Sessions.FirstOrDefault(u => u.UserId == userId);
+               }
+
+               var dateTime = DateTime.Now;
+
+               //if session exist
+               if (sessionDb != null)
+               {
+                    sessionDb.Cookie = cookieString.Value;
+                    sessionDb.ValidTime = dateTime.AddHours(3);
+
+                    using (var db = new SessionContext())
+                    {
+                         db.Entry(sessionDb).State = EntityState.Modified;
+                         db.SaveChanges();
+                    }
+               }
+
+            
+               else
+               {
+                    sessionDb = new SessionDbTable()
+                    {
+                         UserId = userId,
+                         Cookie = cookieString.Value,
+                         ValidTime = dateTime.AddHours(3)
+                    };
+
+                    using (var db = new SessionContext())
+                    {
+                         db.Sessions.Add(sessionDb);
+                         db.SaveChanges();
+                    }
+               }
+
+               return new UserCookieResponse()
+               {
+                    UserId = userId,
+                    cookie = cookieString,
+                    ExpirationDate = dateTime
+               };
+          }
+
+          public UserResp GetUserByCookieAction(string cookieKey)
+          {
+               SessionDbTable session;
+               UDbTable user;
+
+               using (var db = new SessionContext())
+               {
+                    session = db.Sessions.FirstOrDefault(s => s.Cookie.Contains(cookieKey));
+               }
+
+               if (session != null)
+               {
+                    using (var db = new UserContext())
+                    {
+                         user = db.Users.FirstOrDefault(u => u.Id == session.UserId);
+                    }
+
+                    if (user != null)
+                    {
+                         return new UserResp()
+                         {
+                              UserId = user.Id,
+                              Status = true,
+                              Role = user.Level,
+                              Name = user.Username
+                         };
+                    }
+               }
+
+               //if user does not exist
+               return new UserResp()
+               {
+                    Status = false,
+               };
+          }
+     }
 }
+
+

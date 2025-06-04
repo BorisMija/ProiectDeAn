@@ -19,6 +19,8 @@ namespace CryptoWallet.Models.Crypto
           [Range(0.00000001, double.MaxValue, ErrorMessage = "Rate must be greater than zero.")]
           public decimal Rate { get; set; }
 
-          public int UserId { get; set; }
+          public string UserName { get; set; }
+
+          public bool isAvailable { get; set; } = true;
      }
 }

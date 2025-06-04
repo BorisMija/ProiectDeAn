@@ -25,6 +25,7 @@
      </div>
 }
 
+
 <div class="section-title text-center">
      <div class="breadcrumbs">
           <span class="item"><a href="/">Home /</a></span>
@@ -32,6 +33,7 @@
      </div>
      <h2>Sell your Crypto</h2>
 </div>
+
 
 <div class="container">
      <form asp-action="Index" method="post">
@@ -42,19 +44,38 @@
                          <p class="mb-3"><strong>Crypto Symbol</strong></p>
                          <p class="mb-3"><strong>Amount</strong></p>
                          <p class="mb-3"><strong>Rate</strong></p>
-                         <p class="mb-3"><strong>Wallet Address</strong></p>
+
                     </div>
 
                     <div class="col-md-4">
-                         <input asp-for="CryptoSymbol" name="CryptoSymbol" class="form-control text-white mb-4" placeholder="e.g. BTC, ETH" style="width: 75%; color: #44e5ae; border: 2px solid white;" />
+                         <select asp-for="CryptoSymbol" name="CryptoSymbol" class="form-control text-white mb-4"
+                                 style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;">
+                              <option value="">Select a cryptocurrency</option>
+                              <option value="BTC">BTC</option>
+                              <option value="ETH">ETH</option>
+                              <option value="LTC">LTC</option>
+                              <option value="XRP">XRP</option>
+                              <option value="ADA">ADA</option>
+                         </select>
                          <span asp-validation-for="CryptoSymbol" class="text-danger"></span>
 
-                         <input asp-for="Amount" name="Amount" class="form-control text-white mb-4" placeholder="Enter amount" style="width: 75%; color: #44e5ae; border: 2px solid white;" />
+                         <input asp-for="Amount" name="Amount" class="form-control text-white mb-4"
+                                placeholder="Enter amount"
+                                style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;"
+                                onfocus="this.style.setProperty('background-color', '#2a2a2a', 'important'); this.style.setProperty('border-color', '#44e5ae', 'important');"
+                                onblur="this.style.setProperty('background-color', '#1a1a1a', 'important'); this.style.setProperty('border-color', 'white', 'important');" />
+
                          <span asp-validation-for="Amount" class="text-danger"></span>
 
-                         <input asp-for="Rate" name="Rate" class="form-control text-white mb-4" placeholder="Enter rate" style="width: 75%; color: #44e5ae; border: 2px solid white;" />
+                         <input asp-for="Rate" name="Rate" class="form-control text-white mb-4"
+                                placeholder="Enter rate"
+                                style="width: 75%; color: #44e5ae; background-color: #1a1a1a; border: 2px solid white;"
+                                onfocus="this.style.setProperty('background-color', '#2a2a2a', 'important'); this.style.setProperty('border-color', '#44e5ae', 'important');"
+                                onblur="this.style.setProperty('background-color', '#1a1a1a', 'important'); this.style.setProperty('border-color', 'white', 'important');" />
                          <span asp-validation-for="Rate" class="text-danger"></span>
                     </div>
+
+         
 
                     <div class="col-md-4">
                          <p id="recommendedPrice"><strong>Recommended price: 12321</strong></p>
@@ -63,6 +84,8 @@
 
                <div class="row mt-4">
                     <div class="col-12 d-flex justify-content-center">
+                         <input type="hidden" name="Username" value="@Session["UserName"]" />
+
                          <button type="submit" class="btn btn-outline-accent btn-medium btn-rounded text-uppercase">Create Listing</button>
                     </div>
                </div>

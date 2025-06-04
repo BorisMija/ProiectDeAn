@@ -15,7 +15,6 @@ namespace CryptoWallet.Controllers
                 return RedirectToAction("AccessDenied", "Home");
             }
 
-            // Logica ta pentru afișarea datelor în view
             var users = GetUsers();
 
             return View(users);
@@ -36,7 +35,6 @@ namespace CryptoWallet.Controllers
 
         private List<UserData> GetUsers()
         {
-            // Exemplu de listă demo, înlocuiește cu date reale
             return new List<UserData>
             {
                 new UserData { Username = "ionut", Email = "ionut@example.com", Level = 1200, IsBlocked = false },

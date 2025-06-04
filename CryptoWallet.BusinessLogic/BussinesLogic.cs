@@ -2,6 +2,7 @@
 using CryptoWallet.BusinessLogic.BLogic;
 using CryptoWallet.BusinessLogic.Core;
 using CryptoWallet.BusinessLogic.Interfaces;
+using Microsoft.AspNetCore.Http;
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -22,5 +23,9 @@ namespace CryptoWallet.BusinessLogic
           {
                return new WalletBL();
           }
-    }
+          public Interfaces.ISession GetSessionBL()
+          {
+               return new SessionBL();
+          }
+     }
 }

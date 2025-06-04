@@ -55,7 +55,8 @@ namespace CryptoWallet.BusinessLogic.Core
                          CryptoSymbol = model.CryptoSymbol,
                          Amount = model.Amount,
                          Rate = model.Rate,
-                         UserId = model.UserId,
+                         UserName = model.UserName,
+                         isAvailable = true,
                          Date = DateTime.Now
                     };
 
@@ -67,7 +68,18 @@ namespace CryptoWallet.BusinessLogic.Core
                return false;
           }
 
-        public decimal GetWalletBalance(string userId, string currencySymbol)
+
+          public List<SellCrypto> GetCryptosForSale()
+          {
+               using (var db = new UserContext())
+               {
+                    return db.SellCryptos
+                         .Where(c => c.isAvailable)
+                         .OrderByDescending(c => c.Date)
+                         .ToList();
+               }
+          }
+          public decimal GetWalletBalance(string userId, string currencySymbol)
         {
             using (var db = new UserContext())
             {

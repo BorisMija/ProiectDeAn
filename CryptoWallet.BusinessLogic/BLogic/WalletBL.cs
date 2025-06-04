@@ -26,6 +26,8 @@ namespace CryptoWallet.BusinessLogic.BLogic
                throw new NotImplementedException();
           }
 
+    
+
           public WalletViewModel GetWalletData(string userId)
           {
                throw new NotImplementedException();
@@ -34,6 +36,10 @@ namespace CryptoWallet.BusinessLogic.BLogic
           public bool SellCryptoLogic(SellCrypto model)
           {
                return SellCrypto(model);
+          }
+          public List<SellCrypto> GetSellCryptoLogic()
+          {
+               return GetCryptosForSale();
           }
      }
 }

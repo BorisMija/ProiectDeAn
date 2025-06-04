@@ -9,12 +9,22 @@ namespace CryptoWallet.LogicHelper.Mappers
 {
 	public static class CryptoMapper
 	{
-          public static SellCrypto ToEntities(SellCryptoModel product) => new SellCrypto
+          public static SellCrypto ToEntities(SellCryptoModel offer) => new SellCrypto
           {
-               CryptoSymbol = product.CryptoSymbol,
-               Amount = product.Amount,
-               Rate = product.Rate,
-               UserId = product.UserId
+               CryptoSymbol = offer.CryptoSymbol,
+               Amount = offer.Amount,
+               Rate = offer.Rate,
+               UserName = offer.UserName,
+           
           };
+          public static SellCryptoModel ToModel(SellCrypto entity) => new SellCryptoModel
+          {
+               CryptoSymbol = entity.CryptoSymbol,
+               Amount = entity.Amount,
+               Rate = entity.Rate,
+               UserName = entity.UserName,
+               isAvailable = entity.isAvailable
+          };
+
      }
 }
